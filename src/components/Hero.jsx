@@ -10,7 +10,8 @@ import { AppStoreLink } from '@/components/AppStoreLink'
 import { Container } from '@/components/Container'
 import { PhoneFrame } from '@/components/PhoneFrame'
 
-import { useTranslation } from "next-export-i18n";
+import { useTranslation } from 'next-export-i18n'
+import { ToastContainer, toast } from 'react-toastify'
 
 function BackgroundIllustration(props) {
   let id = useId()
@@ -331,6 +332,7 @@ function AppDemo() {
 
 const Hero = () => {
   const { t } = useTranslation()
+  const notify = () => toast('Coming soon!')
 
   return (
     <div className="overflow-hidden py-20 sm:py-32 lg:pb-32 xl:pb-36">
@@ -341,13 +343,11 @@ const Hero = () => {
               {t('hero.title')}
             </h1>
             <p className="mt-6 text-lg text-gray-600">
-              {t(
-                'hero.description'
-              )}
+              {t('hero.description')}
             </p>
             <div className="mt-8 flex flex-wrap gap-x-6 gap-y-4">
-              <AppStoreLink />
-              <Image src={PlayStore} height={0} width={135} />
+              <AppStoreLink onClick={notify} />
+              <Image src={PlayStore} height={0} width={135} onClick={notify} />
             </div>
           </div>
           <div className="relative mt-10 sm:mt-20 lg:col-span-5 lg:row-span-2 lg:mt-0 xl:col-span-6">
@@ -360,6 +360,7 @@ const Hero = () => {
           </div>
         </div>
       </Container>
+      <ToastContainer style={{ fontWeight: 'bold', color: 'black' }} />
     </div>
   )
 }

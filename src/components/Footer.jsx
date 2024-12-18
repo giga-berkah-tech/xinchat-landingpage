@@ -1,4 +1,3 @@
-import Link from 'next/link'
 
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
@@ -47,10 +46,10 @@ const Footer = () => {
             </div>
             <div className="ml-8 lg:w-64">
               <p className="text-base font-semibold text-gray-900">
-                <Link href="#">
+                <div>
                   <span className="absolute inset-0 sm:rounded-2xl" />
                   {t('Download the app')}
-                </Link>
+                </div>
               </p>
               <p className="mt-1 text-sm text-gray-700">
                 {t('Scan the QR code to download the app from the App Store')}
