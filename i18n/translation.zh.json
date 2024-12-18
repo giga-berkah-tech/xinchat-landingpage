@@ -1,0 +1,137 @@
+{
+    "welcome": "欢迎来到我们的网站！",
+    "about": "关于我们",
+    "hero": {
+        "title": "连接重要信息。",
+        "description": "我们的聊天应用程序提供无缝连接和高效沟通，帮助您轻松共享重要信息并提高工作效率。每一次沟通都清晰而有价值，他体验到了流畅沟通的新境界。"
+    },
+    "Features": "特征",
+    "Term of Service": "服务条款",
+    "Privacy Policy": "隐私政策",
+    "primaryFeatures": {
+        "title": "你需要的每一个特征，尝试它吧。",
+        "description": "XinChat 是为那些重视沟通自由、打破与全球各地的人们联系的障碍的人而创建的。如果其他消息应用程序犹豫是否要进行创新，那么 XinChat 凭借专为无限对话而设计的功能一马当先。",
+        "Register": {
+            "title": "注册",
+            "description": "简单账户创建说明：快速注册连接好友并开始聊天。"
+        },
+        "Contact": {
+            "title": "联系",
+            "description": "保持连接：随时联系我们获取帮助或反馈。"
+        },
+        "Profile": {
+            "title": "个人空间",
+            "description": "你的个人空间：更新你的信息和让XinChat真正的你。"
+        }
+    },
+    "terms": {
+        "title": "条款和条件",
+        "date": "生效日期：2024 年 12 月 16 日",
+        "welcome": "欢迎使用Xinchat",
+        "description": "感谢您选择Xinchat。通过下载、访问或使用我们的移动应用程序，您同意受这些条款和条件的约束。如果您不同意，请不要使用该应用程序。",
+        "end": "使用Xinchat，即表示您承认您已阅读、理解并同意这些条款。",
+        "Use of the Application": {
+            "title": "应用程序的使用",
+            "description": "Xinchat按“原样”提供，我们保留随时修改、暂停或终止应用程序任何部分的权利，恕不另行通知。您同意仅出于合法目的使用该应用程序，并遵守所有适用的法律和法规。"
+        },
+        "User Accounts": {
+            "title": "用户账户",
+            "description": "要使用某些功能，您可能需要创建一个账户。维护账户凭据的机密性是您的责任。您同意不共享您的账户详细信息或使用他人的账户。"
+        },
+        "Prohibited Conduct": {
+            "title": "禁止行为",
+            "description": "使用Xinchat时，您同意不：",
+            "bullet1": "从事任何非法或未经授权的活动。",
+            "bullet2": "上传或分享有害、辱骂或令人反感的内容，包括但不限于仇恨言论或色情材料。",
+            "bullet3": "使用Xinchat向其他用户发送垃圾信息或进行骚扰。",
+            "bullet4": "试图破解、干扰或破坏应用程序的功能。"
+        },
+        "Intellectual Property": {
+            "title": "知识产权",
+            "description": "Xinchat中的所有内容、徽标和知识产权均由我们或我们的许可方拥有。未经明确许可，您不得复制、修改或重复使用任何材料。"
+        },
+        "Privacy Policy": {
+            "title": "隐私政策",
+            "description": "您的隐私对我们非常重要。请查看我们的<a class='link' href='/privacy-policy'>隐私政策</a>，以了解我们如何收集、使用和保护您的个人数据。"
+        },
+        "Limitation of Liability": {
+            "title": "责任限制",
+            "description": "在法律允许的最大范围内，Xinchat对因您使用应用程序而导致的任何损害概不负责，包括但不限于数据丢失、恶意软件导致的损害或对您账户的未经授权访问。"
+        },
+        "Termination": {
+            "title": "终止",
+            "description": "如果您违反这些条款或从事禁止行为，我们可能会在不通知的情况下终止或暂停您对Xinchat的访问权限。"
+        },
+        "Changes to Terms": {
+            "title": "条款的变更",
+            "description": "我们保留随时修改这些条款的权利。您在任何更改后继续使用该应用程序，即表示您接受更新后的条款。"
+        },
+        "Governing Law": {
+            "title": "适用法律",
+            "description": "这些条款受[您的国家/地区]的法律管辖。因使用Xinchat而产生的任何争议将在[您的司法管辖区]的法院解决。"
+        },
+        "Contact Us": {
+            "title": "联系我们",
+            "description": "如果您对这些条款有任何疑问或疑虑，请通过<a class='link' href='mailto:cs@aplikasiku.web.id'>cs@aplikasiku.web.id</a>联系我们。"
+        }
+    },
+    "privacy": {
+        "title": "隐私政策",
+        "date": "生效日期：2024年12月16日",
+        "description": "感谢您选择XinChat，这是一款提供通信和聊天服务的移动应用程序。保护您的隐私对我们非常重要。本隐私政策概述了XinChat如何收集、使用、存储和保护您的个人信息。",
+        "end": "使用XinChat即表示您已阅读、理解并同意这些条款。",
+        "Information We Collect": {
+            "title": "我们收集的信息",
+            "description": "我们收集个人数据以提供和改进我们的服务。收集的信息包括：",
+            "bullet1": "<b>个人信息：</b> 注册期间收集的，例如姓名、电子邮件地址以及您提供的其他详细信息。",
+            "bullet2": "<b>使用数据：</b> 有关您如何与应用程序互动的信息。"
+        },
+        "How We Use Your Information": {
+            "title": "我们如何使用您的信息",
+            "description": "我们将收集的信息用于以下目的：",
+            "bullet1": "<b>账户注册：</b> 用于创建和管理您的用户账户。",
+            "bullet2": "<b>服务改进：</b> 提升服务的性能、安全性和功能。",
+            "bullet3": "<b>客户支持：</b> 回复查询并提供帮助。",
+            "bullet4": "<b>安全和防欺诈：</b> 防止未经授权的访问、滥用或非法活动。"
+        },
+        "Data Storage and Security": {
+            "title": "数据存储和安全",
+            "bullet1": "我们将您的个人信息安全地存储在我们的数据库中。我们实施合理的安全措施，以保护您的信息免受未经授权的访问、更改或破坏。",
+            "bullet2": "尽管我们努力使用商业上可接受的手段保护您的数据，但互联网上的数据传输或电子存储方法无法保证100%的安全性。因此，我们无法保证其绝对安全。"
+        },
+        "Third-Party Services": {
+            "title": "第三方服务",
+            "description": "我们使用第三方服务来改进我们的功能，具体包括：",
+            "bullet1": "<b>ChatGPT API：</b> 使用人工智能功能增强用户体验。",
+            "note": "我们不会将您的个人数据共享给第三方公司用于营销或无关目的。"
+        },
+        "Your Rights": {
+            "title": "您的权利",
+            "description": "作为用户，您拥有以下权利：",
+            "bullet1": "<b>访问您的数据：</b> 您可以请求访问我们收集的关于您的数据。",
+            "bullet2": "<b>更新您的数据：</b> 您可以请求更正您的个人信息。",
+            "bullet3": "<b>删除您的数据：</b> 您可以请求从我们的系统中删除您的个人信息。",
+            "note": "行使这些权利，请通过<a class='link' href='mailto:cs@aplikasiku.web.id'>cs@aplikasiku.web.id</a>联系我们。"
+        },
+        "Data Retention": {
+            "title": "数据保留",
+            "description": "我们仅在提供服务、履行法律义务或解决争议所需的时间内保留您的个人信息。"
+        },
+        "Changes to This Privacy Policy": {
+            "title": "隐私政策的变更",
+            "description": "我们保留随时修改本隐私政策的权利。您在任何更改后继续使用应用程序，即表示您接受更新后的隐私政策。",
+            "note": "建议您定期查看本隐私政策的更新。"
+        },
+        "Contact Us": {
+            "title": "联系我们",
+            "description": "如果您对本隐私政策有任何疑问或疑虑，请联系我们：电子邮件：<a class='link' href='mailto:cs@aplikasiku.web.id'>cs@aplikasiku.web.id</a>"
+        }
+    },
+    "Download the app": "下载应用程序",
+    "Scan the QR code to download the app from the App Store": "扫描二维码从App Store下载应用程序。",
+    "Join our newsletter": "加入我们的时事通讯",
+    "Join newsletter": "加入时事通讯",
+    "Copyright": "版权",
+    "All rights reserved": "版权所有。",
+    "Email address": "电子邮件"
+}

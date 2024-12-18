@@ -1,0 +1,137 @@
+{
+    "welcome": "Welcome to our site!",
+    "about": "About us",
+    "hero": {
+        "title": "Connect important information",
+        "description": "Our chat app provides seamless connections and efficient communication to help you easily share important information and increase productivity. Every communication was clear and valuable, and he experienced a new realm of fluid communication"
+    },
+    "Features": "Features",
+    "Term of Service": "Term of Service",
+    "Privacy Policy": "Privacy Policy",
+    "primaryFeatures": {
+        "title": "Every feature you need to win. Try it for yourself.",
+        "description": "XinChat was created for those who value freedom in communication, breaking barriers to connect with people globally. If other messaging apps hesitate to innovate, XinChat leads the way with features designed for limitless conversations.",
+        "Register": {
+            "title": "Register",
+            "description": "Easy Account Creation Description: Sign up quickly to connect with friends and start chatting."
+        },
+        "Contact": {
+            "title": "Contact",
+            "description": "Stay Connected Description: Reach out to us for help or feedback anytime."
+        },
+        "Profile": {
+            "title": "Profile",
+            "description": "Your Personal Space Description: Update your details and make XinChat truly yours."
+        }
+    },
+    "terms": {
+        "title": "Terms and Conditions",
+        "date": "Effective Date: December, 16 2024",
+        "welcome": "Welcome to Xinchat",
+        "description": "Thank you for choosing Xinchat. By downloading, accessing, or using our mobile application, you agree to be bound by these Terms and Conditions. If you do not agree, please do not use the application.",
+        "end": "By using Xinchat, you acknowledge that you have read, understood, and agreed to these Terms.",
+        "Use of the Application": {
+            "title": "Use of the Application",
+            "description": "Xinchat is provided to you as-is, and we reserve the right to modify, suspend, or discontinue any part of the app at any time without prior notice. You agree to use the app only for lawful purposes and in compliance with all applicable laws and regulations."
+        },
+        "User Accounts": {
+            "title": "User Accounts",
+            "description": "To use certain features, you may be required to create an account. Responsibility for maintaining the confidentiality of your account credentials lies with you. You agree not to share your account details or use another user’s account."
+        },
+        "Prohibited Conduct": {
+            "title": "Prohibited Conduct",
+            "description": "While using Xinchat, you agree not to:",
+            "bullet1": "Engage in any illegal or unauthorized activity.",
+            "bullet2": "Upload or share harmful, abusive, or objectionable content, including but not limited to hate speech or explicit materials.",
+            "bullet3": "Use Xinchat to spam or harass other users.",
+            "bullet4": "Attempt to hack, disrupt, or interfere with the app's functionality."
+        },
+        "Intellectual Property": {
+            "title": "Intellectual Property",
+            "description": "All content, logos, and intellectual property in Xinchat are owned by us or our licensors. You are not permitted to copy, modify, or reuse any materials without explicit permission."
+        },
+        "Privacy Policy": {
+            "title": "Privacy Policy",
+            "description": "Your privacy is important to us. Please review our <a class='link' href='/privacy-policy'>Privacy Policy</a> to understand how we collect, use, and protect your personal data."
+        },
+        "Limitation of Liability": {
+            "title": "Limitation of Liability",
+            "description": "To the maximum extent permitted by law, Xinchat is not liable for any damages resulting from your use of the app, including but not limited to loss of data, damages caused by malware, or unauthorized access to your account."
+        },
+        "Termination": {
+            "title": "Termination",
+            "description": "We may terminate or suspend your access to Xinchat without notice if you violate these Terms or engage in prohibited behavior."
+        },
+        "Changes to Terms": {
+            "title": "Changes to Terms",
+            "description": "We reserve the right to modify these Terms at any time. Your continued use of the app after any changes indicates your acceptance of the updated Terms."
+        },
+        "Governing Law": {
+            "title": "Governing Law",
+            "description": "These Terms are governed by the laws of [Your Country/Region]. Any disputes arising from the use of Xinchat will be resolved in courts within [Your Jurisdiction]."
+        },
+        "Contact Us": {
+            "title": "Contact Us",
+            "description": "If you have questions or concerns about these Terms, please contact us at <a class='link' href='mailto:cs@aplikasiku.web.id'>cs@aplikasiku.web.id</a>"
+        }
+    },
+    "privacy": {
+        "title": "Privacy Policy",
+        "date": "Effective Date: December, 16 2024",
+        "description": "Thank you for choosing XinChat, a mobile application designed to provide communication and chatting services. Protecting your privacy is important to us. This Privacy Policy outlines how XinChat we collects, uses, stores, and protects your personal information.",
+        "end": "By using Xinchat, you acknowledge that you have read, understood, and agreed to these Terms.",
+        "Information We Collect": {
+            "title": "Information We Collect",
+            "description": "We collect personal data to provide and improve our services. The information collected includes:",
+            "bullet1": "<b>Personal Information:</b> Collected during registration, such as name, email address, and other details you provide.",
+            "bullet2": "<b>Usage Data:</b> Information about how you interact with the application."
+        },
+        "How We Use Your Information": {
+            "title": "How We Use Your Information",
+            "description": "We use the collected information for the following purposes:",
+            "bullet1": "<b>Account Registration:</b> To create and manage your user account.",
+            "bullet2": "<b>Service Improvement:</b> To enhance the performance, security, and functionality of our services.",
+            "bullet3": "<b>Customer Support:</b> To respond to inquiries and provide assistance.",
+            "bullet4": "<b>Security and Fraud Prevention:</b> To protect against unauthorized access, misuse, or illegal activity."
+        },
+        "Data Storage and Security": {
+            "title": "Data Storage and Security",
+            "bullet1": "We store your personal information securely in our database. We implement reasonable security measures to protect your information from unauthorized access, alteration, or destruction.",
+            "bullet2": "While we strive to use commercially acceptable means to protect your data, no method of transmission over the internet or electronic storage is 100% secure. Therefore, we cannot guarantee its absolute security."
+        },
+        "Third-Party Services": {
+            "title": "Third-Party Services",
+            "description": "We use third-party services to improve our features. Specifically:",
+            "bullet1": "<b>ChatGPT API:</b> To enhance the user experience with AI-powered features.",
+            "note": "We do not share your personal data with third-party companies for marketing or unrelated purposes."
+        },
+        "Your Rights": {
+            "title": "Your Rights",
+            "description": "As a user, you have the following rights:",
+            "bullet1": "<b>Access Your Data:</b> You can request access to the data we collect about you.",
+            "bullet2": "<b>Update Your Data:</b> You can request corrections to your personal information.",
+            "bullet3": "<b>Delete Your Data:</b> You can request the deletion of your personal information from our systems.",
+            "note": "To exercise these rights, contact us at <a class='link' href='mailto:cs@aplikasiku.web.id'>cs@aplikasiku.web.id</a>"
+        },
+        "Data Retention": {
+            "title": "Data Retention",
+            "description": "We retain your personal information only as long as necessary to provide our services, comply with legal obligations, or resolve disputes."
+        },
+        "Changes to This Privacy Policy": {
+            "title": "Changes to This Privacy Policy",
+            "description": "We reserve the right to modify this Privacy Policy at any time. Your continued use of the app after any changes indicates your acceptance of the updated Privacy Policy.",
+            "note": "You are encouraged to review this Privacy Policy periodically for any updates."
+        },
+        "Contact Us": {
+            "title": "Contact Us",
+            "description": "If you have questions or concerns regarding this Privacy Policy, please contact us: Email: <a class='link' href='mailto:cs@aplikasiku.web.id'>cs@aplikasiku.web.id</a>"
+        }
+    },
+    "Download the app": "Download the app",
+    "Scan the QR code to download the app from the App Store": "Scan the QR code to download the app from the App Store.",
+    "Join our newsletter": "Join our newsletter",
+    "Join newsletter": "Join newsletter",
+    "Copyright": "Copyright",
+    "All rights reserved": "All rights reserved.",
+    "Email address": "Email address"
+}

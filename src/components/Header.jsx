@@ -1,13 +1,17 @@
-import Link from 'next/link'
-import { Popover, Listbox, Transition } from '@headlessui/react'
-import { AnimatePresence, motion } from 'framer-motion'
-import { Fragment, useEffect, useState } from 'react'
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { Logo } from '@/components/Logo'
 import { NavLinks } from '@/components/NavLinks'
+import { Listbox, Popover, Transition } from '@headlessui/react'
+import { AnimatePresence, motion } from 'framer-motion'
+import {
+  LanguageSwitcher,
+  LinkWithLocale,
+  useTranslation,
+} from 'next-export-i18n'
+import Link from 'next/link'
 import { useRouter } from 'next/router'
-import { useTranslation } from 'next-i18next'
+import { Fragment, useEffect, useState } from 'react'
 
 function MenuIcon(props) {
   return (
@@ -27,20 +31,25 @@ const languages = [
   { name: 'China', value: 'zh' },
 ]
 
-function Dropdown() {
+function Dropdown({ ...props }) {
   const router = useRouter()
 
   const [selected, setSelected] = useState(null)
 
   useEffect(() => {
-    setSelected(languages.filter((l) => l.value === router.locale)[0])
+    let x = 'en'
+    const { lang } = router.query
+    if (lang?.length) {
+      x = lang
+    }
+    setSelected(languages.filter((l) => l.value === x)[0])
   }, [])
 
   return (
-    <div>
+    <div {...props}>
       <Listbox value={selected} onChange={setSelected}>
         <div className="relative mt-1">
-          <Listbox.Button className="relative w-full cursor-default rounded-lg bg-white py-2 pl-3 pr-10 text-left shadow focus:outline-none focus-visible:border-indigo-500 focus-visible:ring-2 focus-visible:ring-white/75 focus-visible:ring-offset-2 focus-visible:ring-offset-orange-300 sm:text-sm">
+          <Listbox.Button className="relative w-full cursor-default rounded-lg bg-white py-1 md:py-2 pl-3 pr-10 text-left text-sm md:text-base shadow focus:outline-none focus-visible:border-indigo-500 focus-visible:ring-2 focus-visible:ring-white/75 focus-visible:ring-offset-2 focus-visible:ring-offset-orange-300 sm:text-sm">
             <span className="block truncate">{selected?.name}</span>
             <span className="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2">
               <svg
@@ -66,15 +75,16 @@ function Dropdown() {
             leaveTo="opacity-0"
           >
             <Listbox.Options className="absolute mt-1 max-h-60 w-full overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black/5 focus:outline-none sm:text-sm">
-              {languages.map((person, personIdx) => (
-                <Link key={personIdx} href="/" locale={person.value}>
+              {languages.map((language, languageIdx) => (
+                <LanguageSwitcher lang={language.value}>
                   <Listbox.Option
+                    key={languageIdx}
                     className={({ active }) =>
                       `relative cursor-default select-none py-2 px-4 ${
                         active ? 'bg-amber-100 text-amber-900' : 'text-gray-900'
                       }`
                     }
-                    value={person}
+                    value={language}
                   >
                     {({ selected }) => (
                       <>
@@ -83,12 +93,12 @@ function Dropdown() {
                             selected ? 'font-medium' : 'font-normal'
                           }`}
                         >
-                          {person.name}
+                          {language.name}
                         </span>
                       </>
                     )}
                   </Listbox.Option>
-                </Link>
+                </LanguageSwitcher>
               ))}
             </Listbox.Options>
           </Transition>
@@ -113,31 +123,33 @@ function ChevronUpIcon(props) {
 
 function MobileNavLink({ children, ...props }) {
   return (
-    <Popover.Button
-      as={Link}
-      className="block text-base leading-7 tracking-tight text-gray-700"
-      {...props}
-    >
-      {children}
-    </Popover.Button>
+    <LinkWithLocale href={props.href}>
+      <Popover.Button
+        className="block text-base leading-7 tracking-tight text-gray-700"
+      >
+        {children}
+      </Popover.Button>
+    </LinkWithLocale>
   )
 }
 
-export function Header() {
+const Header = () => {
+  const { t } = useTranslation()
+
   return (
     <header>
       <nav>
-        <Container className="relative z-50 flex justify-between py-8">
+        <Container className="relative z-50 flex justify-between items-center py-8">
           <div className="relative z-10 flex items-center gap-16">
-            <Link href="/" aria-label="Home">
+            <LinkWithLocale href="/" aria-label="Home">
               <Logo className="h-10 w-auto" />
-            </Link>
+            </LinkWithLocale>
             <div className="hidden lg:flex lg:gap-10">
               <NavLinks />
             </div>
           </div>
           <div className="flex items-center gap-6">
-            <Popover className="lg:hidden">
+            <Popover className="lg:hidden order-last mt-3 md:mt-0">
               {({ open }) => (
                 <>
                   <Popover.Button
@@ -176,21 +188,17 @@ export function Header() {
                           className="absolute inset-x-0 top-0 z-0 origin-top rounded-b-2xl bg-gray-50 px-6 pb-6 pt-32 shadow-2xl shadow-gray-900/20"
                         >
                           <div className="space-y-4">
-                            <MobileNavLink href="#features">
-                              Features
+                            <MobileNavLink href="/term-of-service">
+                              {t('Term of Service')}
                             </MobileNavLink>
-                            <MobileNavLink href="#reviews">
-                              Reviews
+                            <MobileNavLink href="/privacy-policy">
+                              {t('Privacy Policy')}
                             </MobileNavLink>
-                            <MobileNavLink href="#pricing">
-                              Pricing
-                            </MobileNavLink>
-                            <MobileNavLink href="#faqs">FAQs</MobileNavLink>
                           </div>
                           <div className="mt-8 flex flex-col gap-4">
-                            <Button href="/login" variant="outline">
+                            {/* <Button href="/login" variant="outline">
                               Log in
-                            </Button>
+                            </Button> */}
                             <Button href="#">Download the app</Button>
                           </div>
                         </Popover.Panel>
@@ -213,3 +221,5 @@ export function Header() {
     </header>
   )
 }
+
+export default Header
