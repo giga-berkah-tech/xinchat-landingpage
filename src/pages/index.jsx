@@ -1,42 +1,27 @@
-import Head from 'next/head'
+import dynamic from 'next/dynamic'
+import Layout from '@/components/Layout'
 
-import { CallToAction } from '@/components/CallToAction'
-import { Faqs } from '@/components/Faqs'
-import { Footer } from '@/components/Footer'
-import { Header } from '@/components/Header'
-import { Hero } from '@/components/Hero'
-import { PrimaryFeatures } from '@/components/PrimaryFeatures'
-import { SecondaryFeatures } from '@/components/SecondaryFeatures'
+const Loading = dynamic(() => import('@/components/Loading'), {
+  ssr: false,
+})
+const Hero = dynamic(import('@/components/Hero'), {
+  ssr: false,
+  loading: () => <Loading />,
+})
+const PrimaryFeatures = dynamic(import('@/components/PrimaryFeatures'), {
+  ssr: false,
+  loading: () => <Loading />,
+})
 
-import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
-
-export default function Home() {
+const Home = () => {
   return (
     <>
-      <Head>
-        <title>XinChat - Connect important information.</title>
-        <meta
-          name="description"
-          content="By leveraging insights from our network of industry insiders, you’ll know exactly when to buy to maximize profit, and exactly when to sell to avoid painful losses."
-        />
-      </Head>
-      <Header />
-      <main>
+      <Layout>
         <Hero />
         <PrimaryFeatures />
-        <Faqs />
-        <CallToAction />
-        <SecondaryFeatures />
-        {/* <Reviews /> */}
-        {/* <Pricing /> */}
-      </main>
-      <Footer />
+      </Layout>
     </>
   )
 }
 
-export const getStaticProps = async ({ locale }) => ({
-  props: {
-    ...(await serverSideTranslations(locale ?? 'en', ['common'])),
-  },
-})
+export default Home

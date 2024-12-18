@@ -22,3 +22,7 @@
 #__next {
   min-height: 100%;
 }
+
+.link {
+  color: blue;
+}

@@ -22,7 +22,7 @@ import {
   TupleLogo,
 } from '@/components/StockLogos'
 import Image from 'next/image'
-import { useTranslation } from 'react-i18next'
+import { useTranslation } from 'next-export-i18n'
 
 const MotionAppScreenHeader = motion(AppScreen.Header)
 const MotionAppScreenBody = motion(AppScreen.Body)
@@ -30,24 +30,18 @@ const MotionAppScreenBody = motion(AppScreen.Body)
 const features = [
   {
     name: 'Register',
-    description:
-      'Easy Account Creation Description: Sign up quickly to connect with friends and start chatting.',
     icon: DeviceUserIcon,
     screen: InviteScreen,
     image: Phone2,
   },
   {
     name: 'Contact',
-    description:
-      'Stay Connected Description: Reach out to us for help or feedback anytime.',
     icon: DeviceNotificationIcon,
     screen: StocksScreen,
     image: Phone3,
   },
   {
     name: 'Profile',
-    description:
-      'Your Personal Space Description: Update your details and make XinChat truly yours.',
     icon: DeviceTouchIcon,
     screen: InvestScreen,
     image: Phone4,
@@ -378,13 +372,7 @@ function FeaturesDesktop() {
   let prevIndex = usePrevious(selectedIndex)
   let isForwards = prevIndex === undefined ? true : selectedIndex > prevIndex
 
-  const { t } = useTranslation('common')
-
-  const [isClient, setIsClient] = useState(false)
-
-  useEffect(() => {
-    setIsClient(true)
-  }, [])
+  const { t } = useTranslation()
 
   let onChange = useDebouncedCallback(
     (selectedIndex) => {
@@ -416,20 +404,18 @@ function FeaturesDesktop() {
                 initial={{ borderRadius: 16 }}
               />
             )}
-            {isClient && (
-              <div className="relative z-10 p-8">
-                <feature.icon className="h-8 w-8" />
-                <h3 className="mt-6 text-lg font-semibold text-white">
-                  <Tab className="text-left [&:not(:focus-visible)]:focus:outline-none">
-                    <span className="absolute inset-0 rounded-2xl" />
-                    {t(feature.name)}
-                  </Tab>
-                </h3>
-                <p className="mt-2 text-sm text-gray-400">
-                  {t(feature.description)}
-                </p>
-              </div>
-            )}
+            <div className="relative z-10 p-8">
+              <feature.icon className="h-8 w-8" />
+              <h3 className="mt-6 text-lg font-semibold text-white">
+                <Tab className="text-left [&:not(:focus-visible)]:focus:outline-none">
+                  <span className="absolute inset-0 rounded-2xl" />
+                  {t('primaryFeatures.' + feature.name + '.title')}
+                </Tab>
+              </h3>
+              <p className="mt-2 text-sm text-gray-400">
+                {t('primaryFeatures.' + feature.name + '.description')}
+              </p>
+            </div>
           </div>
         ))}
       </Tab.List>
@@ -470,6 +456,8 @@ function FeaturesMobile() {
   let [activeIndex, setActiveIndex] = useState(0)
   let slideContainerRef = useRef()
   let slideRefs = useRef([])
+
+  const { t } = useTranslation()
 
   useEffect(() => {
     let observer = new window.IntersectionObserver(
@@ -518,15 +506,16 @@ function FeaturesMobile() {
                 />
               </div>
               <PhoneFrame className="relative mx-auto w-full max-w-[366px]">
-                <feature.screen />
+                <Image key={feature.name} src={feature.image} />
+                {/* <feature.screen /> */}
               </PhoneFrame>
               <div className="absolute inset-x-0 bottom-0 bg-gray-800/95 p-6 backdrop-blur sm:p-10">
                 <feature.icon className="h-8 w-8" />
                 <h3 className="mt-6 text-sm font-semibold text-white sm:text-lg">
-                  {feature.name}
+                  {t('primaryFeatures.' + feature.name + '.title')}
                 </h3>
                 <p className="mt-2 text-sm text-gray-400">
-                  {feature.description}
+                  {t('primaryFeatures.' + feature.name + '.description')}
                 </p>
               </div>
             </div>
@@ -558,43 +547,35 @@ function FeaturesMobile() {
   )
 }
 
-export function PrimaryFeatures() {
-  const { t } = useTranslation('common')
-
-  const [isClient, setIsClient] = useState(false)
-
-  useEffect(() => {
-    setIsClient(true)
-  }, [])
+const PrimaryFeatures = () => {
+  const { t } = useTranslation()
 
   return (
     <>
-      {isClient && (
-        <section
-          id="features"
-          aria-label="Features for investing all your money"
-          className="bg-gray-900 py-20 sm:py-32"
-        >
-          <Container>
-            <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-3xl">
-              <h2 className="text-3xl font-medium tracking-tight text-white">
-                {t('Every feature you need to win. Try it for yourself.')}
-              </h2>
-              <p className="mt-2 text-lg text-gray-400">
-                {t(
-                  'XinChat 是为那些重视沟通自由、打破与全球各地的人们联系的障碍的人而创建的。如果其他消息应用程序犹豫是否要进行创新，那么 XinChat 凭借专为无限对话而设计的功能一马当先。'
-                )}
-              </p>
-            </div>
-          </Container>
-          <div className="mt-16 md:hidden">
-            <FeaturesMobile />
+      <section
+        id="features"
+        aria-label="Features for investing all your money"
+        className="bg-gray-900 py-20 sm:py-32"
+      >
+        <Container>
+          <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-3xl">
+            <h2 className="text-3xl font-medium tracking-tight text-white">
+              {t('primaryFeatures.title')}
+            </h2>
+            <p className="mt-2 text-lg text-gray-400">
+              {t('primaryFeatures.description')}
+            </p>
           </div>
-          <Container className="hidden md:mt-20 md:block">
-            <FeaturesDesktop />
-          </Container>
-        </section>
-      )}
+        </Container>
+        <div className="mt-16 md:hidden">
+          <FeaturesMobile />
+        </div>
+        <Container className="hidden md:mt-20 md:block">
+          <FeaturesDesktop />
+        </Container>
+      </section>
     </>
   )
 }
+
+export default PrimaryFeatures

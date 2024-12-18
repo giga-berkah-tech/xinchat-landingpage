@@ -1,25 +1,17 @@
 import { AnimatePresence, motion } from 'framer-motion'
+import { LinkWithLocale, useTranslation } from 'next-export-i18n'
 import Link from 'next/link'
-import { use, useEffect, useState } from 'react'
-import { useTranslation } from 'react-i18next'
+import { useState } from 'react'
 
 export function NavLinks() {
   let [hoveredIndex, setHoveredIndex] = useState(null)
-  const { t } = useTranslation('common')
-
-  const [isClient, setIsClient] = useState(false)
-
-  useEffect(() => {
-    setIsClient(true)
-  }, [])
+  const { t } = useTranslation()
 
   return [
-    ['Features', '#features'],
-    ['Term of Service', '#faqs'],
-    ['Privacy Policy', '#secondary-features'],
-    // ['Contact Us', '#faqs'],
+    ['Term of Service', '/term-of-service'],
+    ['Privacy Policy', '/privacy-policy'],
   ].map(([label, href], index) => (
-    <Link
+    <LinkWithLocale
       key={label}
       href={href}
       className="relative -my-2 -mx-3 rounded-lg px-3 py-2 text-sm text-gray-700 transition-colors delay-150 hover:text-gray-900 hover:delay-[0ms]"
@@ -40,7 +32,7 @@ export function NavLinks() {
           />
         )}
       </AnimatePresence>
-      {isClient && <span className="relative z-10">{t(label)}</span>}
-    </Link>
+      <span className="relative z-10">{t(label)}</span>
+    </LinkWithLocale>
   ))
 }
