@@ -52,7 +52,7 @@
         },
         "Privacy Policy": {
             "title": "隐私政策",
-            "description": "您的隐私对我们非常重要。请查看我们的<a class='link' href='/privacy-policy'>隐私政策</a>，以了解我们如何收集、使用和保护您的个人数据。"
+            "description": "您的隐私对我们非常重要。请查看我们的 <a class='link' href='/privacy-policy'> 隐私政策</a>，以了解我们如何收集、使用和保护您的个人数据。"
         },
         "Limitation of Liability": {
             "title": "责任限制",
@@ -72,7 +72,7 @@
         },
         "Contact Us": {
             "title": "联系我们",
-            "description": "如果您对这些条款有任何疑问或疑虑，请通过<a class='link' href='mailto:cs@aplikasiku.web.id'>cs@aplikasiku.web.id</a>联系我们。"
+            "description": "如果您对这些条款有任何疑问或疑虑，请通过 <a class='link' href='mailto:cs@aplikasiku.web.id'>cs@aplikasiku.web.id</a> 联系我们。"
         }
     },
     "privacy": {
