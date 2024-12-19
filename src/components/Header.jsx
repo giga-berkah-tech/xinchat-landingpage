@@ -49,7 +49,7 @@ function Dropdown({ ...props }) {
     <div {...props}>
       <Listbox value={selected} onChange={setSelected}>
         <div className="relative mt-1">
-          <Listbox.Button className="relative w-full cursor-default rounded-lg bg-white py-1 md:py-2 pl-3 pr-10 text-left text-sm md:text-base shadow focus:outline-none focus-visible:border-indigo-500 focus-visible:ring-2 focus-visible:ring-white/75 focus-visible:ring-offset-2 focus-visible:ring-offset-orange-300 sm:text-sm">
+          <Listbox.Button className="relative w-full cursor-default rounded-lg bg-white py-1 pl-3 pr-10 text-left text-sm shadow focus:outline-none focus-visible:border-indigo-500 focus-visible:ring-2 focus-visible:ring-white/75 focus-visible:ring-offset-2 focus-visible:ring-offset-orange-300 sm:text-sm md:py-2 md:text-base">
             <span className="block truncate">{selected?.name}</span>
             <span className="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2">
               <svg
@@ -76,7 +76,7 @@ function Dropdown({ ...props }) {
           >
             <Listbox.Options className="absolute mt-1 max-h-60 w-full overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black/5 focus:outline-none sm:text-sm">
               {languages.map((language, languageIdx) => (
-                <LanguageSwitcher lang={language.value}>
+                <LanguageSwitcher key={languageIdx} lang={language.value}>
                   <Listbox.Option
                     key={languageIdx}
                     className={({ active }) =>
@@ -124,9 +124,7 @@ function ChevronUpIcon(props) {
 function MobileNavLink({ children, ...props }) {
   return (
     <LinkWithLocale href={props.href}>
-      <Popover.Button
-        className="block text-base leading-7 tracking-tight text-gray-700"
-      >
+      <Popover.Button className="block text-base leading-7 tracking-tight text-gray-700">
         {children}
       </Popover.Button>
     </LinkWithLocale>
@@ -139,7 +137,7 @@ const Header = () => {
   return (
     <header>
       <nav>
-        <Container className="relative z-50 flex justify-between items-center py-8">
+        <Container className="relative z-50 flex items-center justify-between py-8">
           <div className="relative z-10 flex items-center gap-16">
             <LinkWithLocale href="/" aria-label="Home">
               <Logo className="h-10 w-auto" />
@@ -149,7 +147,7 @@ const Header = () => {
             </div>
           </div>
           <div className="flex items-center gap-6">
-            <Popover className="lg:hidden order-last mt-3 md:mt-0">
+            <Popover className="order-last mt-3 md:mt-0 lg:hidden">
               {({ open }) => (
                 <>
                   <Popover.Button
