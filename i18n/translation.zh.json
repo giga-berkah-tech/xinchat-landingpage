@@ -8,6 +8,7 @@
     "Features": "特征",
     "Term of Service": "服务条款",
     "Privacy Policy": "隐私政策",
+    "Contact": "接触",
     "primaryFeatures": {
         "title": "你需要的每一个特征，尝试它吧。",
         "description": "XinChat 是为那些重视沟通自由、打破与全球各地的人们联系的障碍的人而创建的。如果其他消息应用程序犹豫是否要进行创新，那么 XinChat 凭借专为无限对话而设计的功能一马当先。",
@@ -125,6 +126,25 @@
         "Contact Us": {
             "title": "联系我们",
             "description": "如果您对本隐私政策有任何疑问或疑虑，请联系我们：电子邮件：<a class='link' href='mailto:cs@aplikasiku.web.id'>cs@aplikasiku.web.id</a>"
+        }
+    },
+    "contact": {
+        "title": "联系我们",
+        "description": "发送电子邮件、致电或填写表格，了解 Xinchat 如何解决您的消息传递问题。",
+        "box1": {
+            "title": "客户支持",
+            "description": "我们的支持团队全天候提供帮助，解决您可能遇到的任何疑虑或疑问。"
+        },
+        "box2": {
+            "title": "反馈与建议",
+            "description": "我们重视您的反馈，并不断努力改进。您的意见对于塑造我们服务的未来至关重要。"
+        },
+        "form": {
+            "title": "联系我们",
+            "name": "姓名",
+            "email": "电子邮件",
+            "message": "信息",
+            "submit": "提交表格"
         }
     },
     "Download the app": "下载应用程序",

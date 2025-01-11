@@ -8,6 +8,7 @@
     "Features": "Features",
     "Term of Service": "Term of Service",
     "Privacy Policy": "Privacy Policy",
+    "Contact": "Contact",
     "primaryFeatures": {
         "title": "Every feature you need to win. Try it for yourself.",
         "description": "XinChat was created for those who value freedom in communication, breaking barriers to connect with people globally. If other messaging apps hesitate to innovate, XinChat leads the way with features designed for limitless conversations.",
@@ -125,6 +126,25 @@
         "Contact Us": {
             "title": "Contact Us",
             "description": "If you have questions or concerns regarding this Privacy Policy, please contact us: Email: <a class='link' href='mailto:cs@aplikasiku.web.id'>cs@aplikasiku.web.id</a>"
+        }
+    },
+    "contact": {
+        "title": "Contact Us",
+        "description": "Email, call, or complete the form to learn how Xinchat can solve your messaging problem.",
+        "box1": {
+            "title": "Customer Support",
+            "description": "Our support team is available around the clock to address any concerns or queries you may have."
+        },
+        "box2": {
+            "title": "Feedback and Suggestions",
+            "description": "We value your feedback and are continuously working to improve. Your input is crucial in shaping the future of our service."
+        },
+        "form": {
+            "title": "Get in Touch",
+            "name": "Name",
+            "email": "Email",
+            "message": "Message",
+            "submit": "Submit Form"
         }
     },
     "Download the app": "Download the app",
