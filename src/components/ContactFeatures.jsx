@@ -34,30 +34,28 @@ const ContactFeatures = () => {
   }
 
   return (
-    <Container className="flex items-center justify-between space-x-24">
-      <div className="flex flex-col space-y-24">
+    <Container className="flex flex-col items-center justify-between space-y-12 md:flex-row md:space-y-0 md:space-x-12">
+      <div className="flex flex-col space-y-12 md:space-y-24">
         <div>
-          <h1 className="text-6xl font-medium tracking-tight text-gray-900 mb-5">
+          <h1 className="mb-5 text-4xl font-medium tracking-tight text-gray-900 md:text-6xl">
             {t('contact.title')}
           </h1>
 
-          <div className="flex w-full max-w-sm flex-col space-y-4">
-            <p>
-              {t('contact.description')}
-            </p>
+          <div className="flex w-full max-w-full flex-col space-y-4 md:max-w-sm">
+            <p>{t('contact.description')}</p>
             <p>cs@aplikasiku.web.id</p>
             <p>+6287712622018</p>
           </div>
         </div>
 
-        <div className="mt-12 flex w-full justify-between space-x-10">
-          <div className="">
+        <div className="mt-8 flex flex-wrap justify-between gap-6 md:mt-12 md:gap-10">
+          <div className="w-full md:w-auto">
             <h3 className="font-bold">{t('contact.box1.title')}</h3>
             <p className="text-sm text-gray-600">
               {t('contact.box1.description')}
             </p>
           </div>
-          <div className="">
+          <div className="w-full md:w-auto">
             <h3 className="font-bold">{t('contact.box2.title')}</h3>
             <p className="text-sm text-gray-600">
               {t('contact.box2.description')}
@@ -66,8 +64,10 @@ const ContactFeatures = () => {
         </div>
       </div>
 
-      <div className="mt-8 w-full max-w-md rounded-lg bg-white p-8 shadow-md">
-        <h2 className="mb-6 text-2xl font-bold text-gray-800">{t('contact.form.title')}</h2>
+      <div className="mt-8 w-full max-w-full rounded-lg bg-white p-6 shadow-md md:max-w-md md:p-8">
+        <h2 className="mb-4 text-xl font-bold text-gray-800 md:mb-6 md:text-2xl">
+          {t('contact.form.title')}
+        </h2>
         <form onSubmit={onSubmit} className="space-y-4">
           <div>
             <label
