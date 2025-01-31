@@ -11,6 +11,8 @@ export function NavLinks() {
     ['Term of Service', '/term-of-service'],
     ['Privacy Policy', '/privacy-policy'],
     ['Contact', '/contact'],
+    ['Join Our Team', '/recruitment'],
+    ['Pricing & Plans', '/pricing']
   ].map(([label, href], index) => (
     <LinkWithLocale
       key={label}

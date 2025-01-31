@@ -9,6 +9,8 @@
     "Term of Service": "服务条款",
     "Privacy Policy": "隐私政策",
     "Contact": "接触",
+    "Join Our Team": "加入我们的团队",
+    "Pricing & Plans": "定价与计划",
     "primaryFeatures": {
         "title": "你需要的每一个特征，尝试它吧。",
         "description": "XinChat 是为那些重视沟通自由、打破与全球各地的人们联系的障碍的人而创建的。如果其他消息应用程序犹豫是否要进行创新，那么 XinChat 凭借专为无限对话而设计的功能一马当先。",
@@ -145,6 +147,10 @@
             "email": "电子邮件",
             "message": "信息",
             "submit": "提交表格"
+        },
+        "address": {
+            "title": "我们的位置",
+            "description": "10F, West Wing, The Rise, Makati, Makati, Metro Manila 1203, Philippines"
         }
     },
     "Download the app": "下载应用程序",
@@ -153,5 +159,82 @@
     "Join newsletter": "加入时事通讯",
     "Copyright": "版权",
     "All rights reserved": "版权所有。",
-    "Email address": "电子邮件"
+    "Email address": "电子邮件",
+    "recruitment": {
+        "title": "成为我们旅程的一部分",
+        "sendResume": "通过电子邮件申请",
+        "description": "热衷于改变沟通方式吗？加入 XinChat，帮助我们塑造消息传递的未来。我们正在寻找创新的人才，推动无缝的聊天体验。",
+        "teamDescription": "在 XinChat，我们倡导协作和创新，每个人的声音都很重要。我们将共同打破沟通障碍，建设一个全球社区。",
+        "benefits": {
+            "title": "为什么加入我们？",
+            "description": "我们提供一个充满活力和包容的环境，让您能够茁壮成长。以下是您将享受的一些福利：",
+            "item1": "具有竞争力的薪资",
+            "item2": "健康保险",
+            "item3": "职业发展机会"
+        },
+        "jobs": {
+            "title": "职位空缺",
+            "job1": {
+                "title": "软件工程师",
+                "description": "加入我们的工程团队，构建尖端的软件解决方案。"
+            },
+            "job2": {
+                "title": "产品经理",
+                "description": "帮助塑造我们的产品未来，以用户为中心的设计。"
+            },
+            "job3": {
+                "title": "UI/UX 设计师",
+                "description": "设计引人入胜的用户界面，提升用户体验。"
+            },
+            "job4": {
+                "title": "市场专员",
+                "description": "制定策略，提升我们的品牌存在感和参与度。"
+            },
+            "job5": {
+                "title": "客户支持代表",
+                "description": "通过各种渠道为我们的客户提供卓越的支持。"
+            }
+        }
+    },
+    "pricing": {
+        "title": "选择您的计划",
+        "description": "通过我们灵活的定价选项，找到适合您业务的完美计划。",
+        "featuresTitle": "包含的功能",
+        "features": {
+            "item1": "无限消息",
+            "item1Description": "发送您需要的任意数量的消息，毫无限制。",
+            "item2": "高级加密",
+            "item2Description": "通过端对端加密确保您的聊天完全安全。",
+            "item3": "跨平台支持",
+            "item3Description": "随时随地在任何设备上访问聊天应用。"
+        },
+        "plans": {
+            "title": "定价方案",
+            "free": {
+                "title": "免费计划",
+                "description": "适合个人或小团队。",
+                "price": "$0/月",
+                "button": "开始使用"
+            },
+            "basic": {
+                "title": "基础计划",
+                "description": "适合小型企业。",
+                "price": "$10/月",
+                "button": "立即开始"
+            },
+            "pro": {
+                "title": "专业计划",
+                "description": "适合成长中的企业，提供高级功能。",
+                "price": "$30/月",
+                "button": "试用专业版"
+            },
+            "enterprise": {
+                "title": "企业计划",
+                "description": "为大型组织提供定制化解决方案。",
+                "price": "联系我们",
+                "button": "请求报价"
+            }
+        },
+        "customPricing": "需要定制价格？请联系我们的销售团队。"
+    }
 }

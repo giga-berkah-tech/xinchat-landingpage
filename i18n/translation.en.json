@@ -9,6 +9,8 @@
     "Term of Service": "Term of Service",
     "Privacy Policy": "Privacy Policy",
     "Contact": "Contact",
+    "Join Our Team": "Join Our Team",
+    "Pricing & Plans": "Pricing & Plans",
     "primaryFeatures": {
         "title": "Every feature you need to win. Try it for yourself.",
         "description": "XinChat was created for those who value freedom in communication, breaking barriers to connect with people globally. If other messaging apps hesitate to innovate, XinChat leads the way with features designed for limitless conversations.",
@@ -145,6 +147,10 @@
             "email": "Email",
             "message": "Message",
             "submit": "Submit Form"
+        },
+        "address": {
+            "title": "Our Location",
+            "description": "10F, West Wing, The Rise, Makati, Makati, Metro Manila 1203, Philippines"
         }
     },
     "Download the app": "Download the app",
@@ -153,5 +159,82 @@
     "Join newsletter": "Join newsletter",
     "Copyright": "Copyright",
     "All rights reserved": "All rights reserved.",
-    "Email address": "Email address"
+    "Email address": "Email address",
+    "recruitment": {
+        "title": "Be Part of Our Journey",
+        "sendResume": "Apply via Email",
+        "description": "Passionate about transforming communication? Join XinChat and help us shape the future of messaging. We’re looking for innovative individuals to drive seamless chatting experiences.",
+        "teamDescription": "At XinChat, we foster collaboration and innovation, where every voice matters. Together, we’ll break communication barriers and build a global community.",
+        "benefits": {
+            "title": "Why Join Us?",
+            "description": "We offer a dynamic and inclusive environment where you can thrive. Here are some of the benefits you’ll enjoy.",
+            "item1": "Competitive salary",
+            "item2": "Health insurance",
+            "item3": "Career development opportunities"
+        },
+        "jobs": {
+            "title": "Job Openings",
+            "job1": {
+                "title": "Software Engineer",
+                "description": "Join our engineering team to build cutting-edge software solutions."
+            },
+            "job2": {
+                "title": "Product Manager",
+                "description": "Help shape the future of our products with user-centric design."
+            },
+            "job3": {
+                "title": "UI/UX Designer",
+                "description": "Design engaging user interfaces and enhance user experiences."
+            },
+            "job4": {
+                "title": "Marketing Specialist",
+                "description": "Develop strategies to boost our brand presence and engagement."
+            },
+            "job5": {
+                "title": "Customer Support Representative",
+                "description": "Provide exceptional support to our clients through various channels."
+            }
+        }
+    },
+    "pricing": {
+        "title": "Choose Your Plan",
+        "description": "Find the perfect plan for your business with our flexible pricing options.",
+        "featuresTitle": "Features Included",
+        "features": {
+            "item1": "Unlimited Messages",
+            "item1Description": "Send as many messages as you need with no limits.",
+            "item2": "Advanced Encryption",
+            "item2Description": "Ensure your chats are completely secure with end-to-end encryption.",
+            "item3": "Cross-Platform Support",
+            "item3Description": "Access the chat app from any device, anytime."
+        },
+        "plans": {
+            "title": "Pricing Plans",
+            "free": {
+                "title": "Free Plan",
+                "description": "Perfect for individuals or small teams.",
+                "price": "$0/month",
+                "button": "Get Started"
+            },
+            "basic": {
+                "title": "Basic Plan",
+                "description": "Ideal for small businesses.",
+                "price": "$10/month",
+                "button": "Start Now"
+            },
+            "pro": {
+                "title": "Pro Plan",
+                "description": "For growing businesses with advanced features.",
+                "price": "$30/month",
+                "button": "Try Pro"
+            },
+            "enterprise": {
+                "title": "Enterprise Plan",
+                "description": "Custom solutions for large organizations.",
+                "price": "Contact Us",
+                "button": "Request Quote"
+            }
+        },
+        "customPricing": "Need custom pricing? Contact our sales team."
+    }
 }

@@ -195,6 +195,12 @@ const Header = () => {
                             <MobileNavLink href="/contact">
                               {t('Contact')}
                             </MobileNavLink>
+                            <MobileNavLink href="/recruitment">
+                              {t('Join Our Team')}
+                            </MobileNavLink>
+                            <MobileNavLink href="/pricing">
+                              {t('Pricing & Plans')}
+                            </MobileNavLink>
                           </div>
                           <div className="mt-8 flex flex-col gap-4">
                             {/* <Button href="/login" variant="outline">
