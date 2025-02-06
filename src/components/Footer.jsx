@@ -81,7 +81,7 @@ const Footer = () => {
             <p className="mt-2">
               {t('Need help? Reach out to us at ')}
               <a href="mailto:support@xinchatsupport.com" className="text-cyan-500 hover:underline">
-                cs@aplikasiku.web.id
+              support@xinchatsupport.com
               </a>
             </p>
           </div>

@@ -102,7 +102,7 @@ const Recruitment = () => {
                             href="mailto:hr@company.com"
                             className="text-indigo-600 hover:text-indigo-700"
                         >
-                            cs@aplikasiku.web.id
+                            support@xinchatsupport.com
                         </a>
                     </p>
                 </div>
