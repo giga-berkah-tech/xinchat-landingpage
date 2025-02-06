@@ -395,24 +395,24 @@ function FeaturesDesktop() {
         {features.map((feature, featureIndex) => (
           <div
             key={feature.name}
-            className="relative rounded-2xl transition-colors hover:bg-gray-800/30"
+            className="relative rounded-2xl transition-colors hover:bg-gray-100/50"
           >
             {featureIndex === selectedIndex && (
               <motion.div
                 layoutId="activeBackground"
-                className="absolute inset-0 bg-gray-800"
+                className="absolute inset-0 bg-gray-50 shadow-md"
                 initial={{ borderRadius: 16 }}
               />
             )}
             <div className="relative z-10 p-8">
               <feature.icon className="h-8 w-8" />
-              <h3 className="mt-6 text-lg font-semibold text-white">
+              <h3 className="mt-6 text-lg font-semibold">
                 <Tab className="text-left [&:not(:focus-visible)]:focus:outline-none">
                   <span className="absolute inset-0 rounded-2xl" />
                   {t('primaryFeatures.' + feature.name + '.title')}
                 </Tab>
               </h3>
-              <p className="mt-2 text-sm text-gray-400">
+              <p className="mt-2 text-sm text-gray-500">
                 {t('primaryFeatures.' + feature.name + '.description')}
               </p>
             </div>
@@ -498,7 +498,7 @@ function FeaturesMobile() {
             ref={(ref) => (slideRefs.current[featureIndex] = ref)}
             className="w-full flex-none snap-center px-4 sm:px-6"
           >
-            <div className="relative transform overflow-hidden rounded-2xl bg-gray-800 px-5 py-6">
+            <div className="relative transform overflow-hidden rounded-2xl bg-gray-100/50 px-5 py-6">
               <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
                 <CircleBackground
                   color="#13B5C8"
@@ -509,12 +509,12 @@ function FeaturesMobile() {
                 <Image key={feature.name} src={feature.image} />
                 {/* <feature.screen /> */}
               </PhoneFrame>
-              <div className="absolute inset-x-0 bottom-0 bg-gray-800/95 p-6 backdrop-blur sm:p-10">
+              <div className="absolute inset-x-0 bottom-0 bg-gray-50 p-6 backdrop-blur sm:p-10">
                 <feature.icon className="h-8 w-8" />
-                <h3 className="mt-6 text-sm font-semibold text-white sm:text-lg">
+                <h3 className="mt-6 text-sm font-semibold sm:text-lg">
                   {t('primaryFeatures.' + feature.name + '.title')}
                 </h3>
-                <p className="mt-2 text-sm text-gray-400">
+                <p className="mt-2 text-sm text-gray-500">
                   {t('primaryFeatures.' + feature.name + '.description')}
                 </p>
               </div>
@@ -555,11 +555,11 @@ const PrimaryFeatures = () => {
       <section
         id="features"
         aria-label="Features for investing all your money"
-        className="bg-gray-900 py-20 sm:py-32"
+        className="py-20 mt-20 sm:py-32"
       >
         <Container>
           <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-3xl">
-            <h2 className="text-3xl font-medium tracking-tight text-white">
+            <h2 className="text-3xl font-medium tracking-tight">
               {t('primaryFeatures.title')}
             </h2>
             <p className="mt-2 text-lg text-gray-400">
