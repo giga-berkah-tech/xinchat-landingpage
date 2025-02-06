@@ -35,7 +35,7 @@ const ContactFeatures = () => {
 
   return (
     <Container className="flex flex-col items-center justify-between space-y-12 md:flex-row md:space-y-0 md:space-x-12">
-      <div className="flex flex-col space-y-12 md:space-y-24">
+      <div className="flex flex-col space-y-12 md:space-y-16">
         <div>
           <h1 className="mb-5 text-4xl font-medium tracking-tight text-gray-900 md:text-6xl">
             {t('contact.title')}
@@ -45,6 +45,18 @@ const ContactFeatures = () => {
             <p>{t('contact.description')}</p>
             <p>cs@aplikasiku.web.id</p>
             <p>+6287712622018</p>
+          </div>
+        </div>
+
+        <div>
+          <h1 className="mb-5 text-4xl font-medium tracking-tight text-gray-900 md:text-6xl">
+            {t('contact.address.title')}
+          </h1>
+
+          <div className="flex w-full max-w-full flex-col space-y-4 md:max-w-sm">
+            <p>{t('contact.address.description')}</p>
+            {/* <p>cs@aplikasiku.web.id</p>
+            <p>+6287712622018</p> */}
           </div>
         </div>
 

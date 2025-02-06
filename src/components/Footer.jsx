@@ -74,10 +74,17 @@ const Footer = () => {
               <span className="lg:hidden">{t('Join newsletter')}</span>
             </Button>
           </form>
-          <p className="mt-6 text-sm text-gray-500 md:mt-0">
-            &copy; {t('Copyright')} {new Date().getFullYear()}.{' '}
-            {t('All rights reserved')}
-          </p>
+          <div className="mt-6 text-sm text-gray-500 md:mt-0">
+            <p>
+              &copy; {t('Copyright')} {new Date().getFullYear()}. {t('All rights reserved')}
+            </p>
+            <p className="mt-2">
+              {t('Need help? Reach out to us at ')}
+              <a href="mailto:support@xinchatsupport.com" className="text-cyan-500 hover:underline">
+              support@xinchatsupport.com
+              </a>
+            </p>
+          </div>
         </div>
       </Container>
     </footer>
