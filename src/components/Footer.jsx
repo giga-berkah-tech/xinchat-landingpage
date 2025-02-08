@@ -80,8 +80,8 @@ const Footer = () => {
             </p>
             <p className="mt-2">
               {t('Need help? Reach out to us at ')}
-              <a href="mailto:support@xinchatsupport.com" className="text-cyan-500 hover:underline">
-              support@xinchatsupport.com
+              <a href="mailto:cs@aplikasiku.web.id" className="text-cyan-500 hover:underline">
+              cs@aplikasiku.web.id
               </a>
             </p>
           </div>
