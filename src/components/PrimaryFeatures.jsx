@@ -3,7 +3,7 @@ import { Tab } from '@headlessui/react'
 import clsx from 'clsx'
 import { AnimatePresence, motion } from 'framer-motion'
 import { useDebouncedCallback } from 'use-debounce'
-import Phone2 from '@/images/phone/b808ea7dedf (1).png'
+import Phone2 from '@/images/phone/b808ea7dedf (5).png'
 import Phone3 from '@/images/phone/b808ea7dedf (3).png'
 import Phone4 from '@/images/phone/b808ea7dedf (4).png'
 

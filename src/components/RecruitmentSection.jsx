@@ -99,7 +99,7 @@ const Recruitment = () => {
                     <p className="text-lg text-gray-700">
                         {t('recruitment.sendResume')} <br />
                         <a
-                            href="mailto:hr@company.com"
+                            href="mailto:support@xinchatsupport.com"
                             className="text-indigo-600 hover:text-indigo-700"
                         >
                             support@xinchatsupport.com
