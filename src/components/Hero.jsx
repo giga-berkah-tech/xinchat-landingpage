@@ -1,5 +1,5 @@
 import PlayStore from '@/images/logos/googleplay.svg'
-import Phone1 from '@/images/photo_2024-12-14_13-04-57.jpg'
+import Phone1 from '@/images/phone/b808ea7dedf (2).png'
 import clsx from 'clsx'
 import { motion, useInView, useMotionValue } from 'framer-motion'
 import Image from 'next/image'
@@ -240,96 +240,6 @@ function Chart({
   )
 }
 
-function AppDemo() {
-  let [activePointIndex, setActivePointIndex] = useState(null)
-  let activePriceIndex = activePointIndex ?? prices.length - 1
-  let activeValue = prices[activePriceIndex]
-  let previousValue = prices[activePriceIndex - 1]
-  let percentageChange =
-    activePriceIndex === 0
-      ? null
-      : ((activeValue - previousValue) / previousValue) * 100
-
-  return (
-    <AppScreen>
-      <AppScreen.Body>
-        {/* <div className="p-4">
-          <div className="flex gap-2">
-            <div className="text-xs leading-6 text-gray-500">
-              Tailwind Labs, Inc.
-            </div>
-            <div className="text-sm text-gray-900">$CSS</div>
-            <svg viewBox="0 0 24 24" className="ml-auto h-6 w-6" fill="none">
-              <path
-                d="M5 12a7 7 0 1 1 14 0 7 7 0 0 1-14 0ZM12 9v6M15 12H9"
-                stroke="#171717"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </svg>
-          </div>
-          <div className="mt-3 border-t border-gray-200 pt-5">
-            <div className="flex items-baseline gap-2">
-              <div className="text-2xl tabular-nums tracking-tight text-gray-900">
-                {activeValue.toFixed(2)}
-              </div>
-              <div className="text-sm text-gray-900">USD</div>
-              {percentageChange && (
-                <div
-                  className={clsx(
-                    'ml-auto text-sm tabular-nums tracking-tight',
-                    percentageChange >= 0 ? 'text-cyan-500' : 'text-gray-500'
-                  )}
-                >
-                  {`${
-                    percentageChange >= 0 ? '+' : ''
-                  }${percentageChange.toFixed(2)}%`}
-                </div>
-              )}
-            </div>
-            <div className="mt-6 flex gap-4 text-xs text-gray-500">
-              <div>1D</div>
-              <div>5D</div>
-              <div className="font-semibold text-cyan-600">1M</div>
-              <div>6M</div>
-              <div>1Y</div>
-              <div>5Y</div>
-            </div>
-            <div className="mt-3 rounded-lg bg-gray-50 ring-1 ring-inset ring-black/5">
-              <Chart
-                width={286}
-                height={208}
-                paddingX={16}
-                paddingY={32}
-                activePointIndex={activePointIndex}
-                onChangeActivePointIndex={setActivePointIndex}
-              />
-            </div>
-            <div className="mt-4 rounded-lg bg-cyan-500 py-2 px-4 text-center text-sm font-semibold text-white">
-              Trade
-            </div>
-            <div className="mt-3 divide-y divide-gray-100 text-sm">
-              <div className="flex justify-between py-1">
-                <div className="text-gray-500">Open</div>
-                <div className="font-medium text-gray-900">6,387.55</div>
-              </div>
-              <div className="flex justify-between py-1">
-                <div className="text-gray-500">Closed</div>
-                <div className="font-medium text-gray-900">6,487.09</div>
-              </div>
-              <div className="flex justify-between py-1">
-                <div className="text-gray-500">Low</div>
-                <div className="font-medium text-gray-900">6,322.01</div>
-              </div>
-            </div>
-          </div>
-        </div> */}
-      </AppScreen.Body>
-    </AppScreen>
-  )
-}
-
 const Hero = () => {
   const { t } = useTranslation()
   const notify = () => toast('Coming soon!')
@@ -352,9 +262,16 @@ const Hero = () => {
           </div>
           <div className="relative mt-10 sm:mt-20 lg:col-span-5 lg:row-span-2 lg:mt-0 xl:col-span-6">
             <BackgroundIllustration className="absolute left-1/2 top-4 h-[1026px] w-[1026px] -translate-x-1/3 stroke-gray-300/70 [mask-image:linear-gradient(to_bottom,white_20%,transparent_75%)] sm:top-16 sm:-translate-x-1/2 lg:-top-16 lg:ml-12 xl:-top-14 xl:ml-0" />
-            <div className="-mx-4 h-[448px] px-9 [mask-image:linear-gradient(to_bottom,white_60%,transparent)] sm:mx-0 lg:absolute lg:-inset-x-10 lg:-top-10 lg:-bottom-20 lg:h-auto lg:px-0 lg:pt-10 xl:-bottom-32">
+            <div className="-mx-4 h-[448px] px-9 [mask-image:linear-gradient(to_bottom,white_60%,transparent)] sm:mx-0 lg:absolute lg:-inset-x-10 lg:-top-20 lg:-bottom-20 lg:h-auto lg:px-0 lg:pt-10 xl:-bottom-32">
               <PhoneFrame className="mx-auto max-w-[366px]" priority>
-                <Image src={Phone1} />
+                <motion.div
+                  style={{ marginTop: '30px' }}
+                  whileInView={{ opacity: 1 }}
+                  initial={{ opacity: 0 }}
+                  transition={{ duration: 0.7 }}
+                >
+                  <Image src={Phone1} />
+                </motion.div>
               </PhoneFrame>
             </div>
           </div>
