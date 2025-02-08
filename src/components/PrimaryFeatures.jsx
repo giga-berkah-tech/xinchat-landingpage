@@ -3,9 +3,9 @@ import { Tab } from '@headlessui/react'
 import clsx from 'clsx'
 import { AnimatePresence, motion } from 'framer-motion'
 import { useDebouncedCallback } from 'use-debounce'
-import Phone2 from '@/images/photo_2024-12-14_13-05-23.jpg'
-import Phone3 from '@/images/photo_2024-12-14_13-04-58.jpg'
-import Phone4 from '@/images/photo_2024-12-14_13-04-58 (2).jpg'
+import Phone2 from '@/images/phone/b808ea7dedf (1).png'
+import Phone3 from '@/images/phone/b808ea7dedf (3).png'
+import Phone4 from '@/images/phone/b808ea7dedf (4).png'
 
 import { AppScreen } from '@/components/AppScreen'
 import { CircleBackground } from '@/components/CircleBackground'
@@ -431,17 +431,15 @@ function FeaturesDesktop() {
             >
               {features.map((feature, featureIndex) =>
                 selectedIndex === featureIndex ? (
-                  // <Tab.Panel
-                  //   static
-                  //   key={feature.name + changeCount}
-                  //   className="col-start-1 row-start-1 flex focus:outline-offset-[32px] [&:not(:focus-visible)]:focus:outline-none"
-                  // >
-                  //   <feature.screen
-                  //     animated
-                  //     custom={{ isForwards, changeCount }}
-                  //   />
-                  // </Tab.Panel>
-                  <Image key={feature.name} src={feature.image} />
+                  <motion.div
+                    style={{ marginTop: '30px' }}
+                    key={feature.name}
+                    whileInView={{ opacity: 1 }}
+                    initial={{ opacity: 0 }}
+                    transition={{ duration: 0.7 }}
+                  >
+                    <Image src={feature.image} />
+                  </motion.div>
                 ) : null
               )}
             </AnimatePresence>
@@ -506,8 +504,15 @@ function FeaturesMobile() {
                 />
               </div>
               <PhoneFrame className="relative mx-auto w-full max-w-[366px]">
-                <Image key={feature.name} src={feature.image} />
-                {/* <feature.screen /> */}
+                <motion.div
+                  style={{ marginTop: '30px' }}
+                  key={feature.name}
+                  whileInView={{ opacity: 1 }}
+                  initial={{ opacity: 0 }}
+                  transition={{ duration: 0.7 }}
+                >
+                  <Image src={feature.image} />
+                </motion.div>
               </PhoneFrame>
               <div className="absolute inset-x-0 bottom-0 bg-gray-50 p-6 backdrop-blur sm:p-10">
                 <feature.icon className="h-8 w-8" />
@@ -555,7 +560,7 @@ const PrimaryFeatures = () => {
       <section
         id="features"
         aria-label="Features for investing all your money"
-        className="py-20 mt-20 sm:py-32"
+        className="mt-20 py-20 sm:py-32"
       >
         <Container>
           <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-3xl">
