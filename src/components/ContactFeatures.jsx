@@ -9,6 +9,7 @@ const ContactFeatures = () => {
 
   const isAplikasikuDomain =
       window.location.hostname === 'xinchat.alikasiku.web.id'
+      
 
   const onSubmit = async (event) => {
     event.preventDefault()
