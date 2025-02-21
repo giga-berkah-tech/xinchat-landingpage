@@ -8,8 +8,8 @@ const ContactFeatures = () => {
   const { t } = useTranslation()
 
   const isAplikasikuDomain =
-      window.location.hostname === 'xinchat.alikasiku.web.id'
-      
+      window.location.hostname === 'xinchat.aplikasiku.web.id'
+
 
   const onSubmit = async (event) => {
     event.preventDefault()
