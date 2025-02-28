@@ -6,6 +6,7 @@
         "description": "我们的平台可实现组织内的无缝连接和高效沟通，让团队能够轻松共享重要信息并提高工作效率。每次互动都简洁明了，有针对性，让团队能够以更流畅、更有效的方式进行协作。"
     },
     "Features": "特征",
+    "Download": "下载",
     "Term of Service": "服务条款",
     "Privacy Policy": "隐私政策",
     "Contact": "接触",
@@ -252,5 +253,19 @@
             }
         },
         "customPricing": "对我们的服务感兴趣？请联系我们的团队。"
-    }
+    },
+   "download": {
+    "title": "改变你的沟通方式",
+    "subtitle": "与即时连接",
+    "description": "在所有设备上安装 XinChat，以保持互动并继续每个 <br/> 对话。",
+    "button": "立即下载",
+    "pc/mac": "PC/Mac",
+    "dekstop": "桌面",
+    "android": "安卓",
+    "ios": "iOS",
+    "mobilePhone": "手机",
+    "tablet": "平板",
+    "downloadDescription": "通过快速、灵活的沟通策略，领先于不断发展的商业环境"
+}
+
 }

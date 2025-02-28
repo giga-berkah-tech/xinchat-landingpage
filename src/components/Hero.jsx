@@ -256,8 +256,18 @@ const Hero = () => {
               {t('hero.description')}
             </p>
             <div className="mt-8 flex flex-wrap gap-x-6 gap-y-4">
-              <AppStoreLink onClick={notify} />
-              <Image src={PlayStore} height={0} width={135} onClick={notify} />
+              <a
+                href="https://testflight.apple.com/join/F2PxchFb"
+                target="_blank"
+              >
+                <AppStoreLink />
+              </a>
+              <a
+                href="https://play.google.com/store/apps/details?id=id.web.aplikasiku.xinchat"
+                target="_blank"
+              >
+                <Image src={PlayStore} height={0} width={135} />
+              </a>
             </div>
           </div>
           <div className="relative mt-10 sm:mt-20 lg:col-span-5 lg:row-span-2 lg:mt-0 xl:col-span-6">

@@ -192,6 +192,9 @@ const Header = () => {
                             <MobileNavLink href="/privacy-policy">
                               {t('Privacy Policy')}
                             </MobileNavLink>
+                            <MobileNavLink href="/pricing">
+                              {t('Download')}
+                            </MobileNavLink>
                             <MobileNavLink href="/contact">
                               {t('Contact')}
                             </MobileNavLink>
@@ -216,12 +219,6 @@ const Header = () => {
               )}
             </Popover>
             <Dropdown />
-            {/* <Button href="/login" variant="outline" className="hidden lg:block">
-              Log in
-            </Button>
-            <Button href="#" className="hidden lg:block">
-              Download
-            </Button> */}
           </div>
         </Container>
       </nav>
