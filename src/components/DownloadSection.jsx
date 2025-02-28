@@ -135,6 +135,7 @@ const DownloadSection = () => {
                 <a
                   href="https://testflight.apple.com/join/F2PxchFb"
                   target="_blank"
+                  rel='noreferrer'
                 >
                   <AppStoreLink />
                 </a>
@@ -144,15 +145,15 @@ const DownloadSection = () => {
           <div className="flex-grow space-y-8 rounded-xl bg-gray-100 px-5 py-8 transition-all duration-150 hover:ring-2 hover:ring-gray-800">
             <div className="grid h-20 w-20 place-content-center rounded-full bg-gray-200">
               <svg
-                class="h-8 w-8 text-gray-800"
+                className="h-8 w-8 text-gray-800"
                 width="24"
                 height="24"
                 viewBox="0 0 24 24"
-                stroke-width="2"
+                strokeWidth="2"
                 stroke="currentColor"
                 fill="none"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               >
                 {' '}
                 <path stroke="none" d="M0 0h24v24H0z" />{' '}
@@ -179,6 +180,7 @@ const DownloadSection = () => {
               <a
                 href="https://play.google.com/store/apps/details?id=id.web.aplikasiku.xinchat"
                 target="_blank"
+                rel='noreferrer'
               >
                 <Image src={PlayStore} height={0} width={135} />
               </a>
