@@ -259,12 +259,14 @@ const Hero = () => {
               <a
                 href="https://testflight.apple.com/join/F2PxchFb"
                 target="_blank"
+                rel='noreferrer'
               >
                 <AppStoreLink />
               </a>
               <a
                 href="https://play.google.com/store/apps/details?id=id.web.aplikasiku.xinchat"
                 target="_blank"
+                rel='noreferrer'
               >
                 <Image src={PlayStore} height={0} width={135} />
               </a>
