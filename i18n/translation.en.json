@@ -6,6 +6,7 @@
         "description": "Our platform enables seamless connections and efficient communication within your organization, allowing teams to share important information effortlessly and boost productivity. Every interaction is streamlined and purposeful, empowering teams to collaborate in a more fluid and effective way."
     },
     "Features": "Features",
+    "Download": "Download",
     "Term of Service": "Term of Service",
     "Privacy Policy": "Privacy Policy",
     "Contact": "Contact",
@@ -251,5 +252,18 @@
             }
         },
         "customPricing": "Interested in our services? Contact our team."
+    },
+    "download": {
+        "title": "Transform Your Communication",
+        "subtitle": "with Instant Connectivity",
+        "description": "Install XinChat on all your devices to stay engaged and continue every <br/> conversations.",
+        "button": "Download Now",
+        "pc/mac": "PC/Mac",
+        "dekstop": "Desktop",
+        "android": "Android",
+        "ios": "iOS",
+        "mobilePhone": "Mobile Phone",
+        "tablet": "Tablet",
+        "downloadDescription": "Stay ahead with quick, adaptable communication <br/> strategies for evolving business landscape"
     }
 }
