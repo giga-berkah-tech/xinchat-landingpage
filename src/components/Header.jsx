@@ -192,7 +192,7 @@ const Header = () => {
                             <MobileNavLink href="/privacy-policy">
                               {t('Privacy Policy')}
                             </MobileNavLink>
-                            <MobileNavLink href="/pricing">
+                            <MobileNavLink href="/download">
                               {t('Download')}
                             </MobileNavLink>
                             <MobileNavLink href="/contact">
