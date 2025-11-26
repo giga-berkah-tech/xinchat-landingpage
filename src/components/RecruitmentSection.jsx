@@ -16,7 +16,7 @@ const Recruitment = () => {
                     <div className="flex w-full max-w-full flex-col space-y-4 md:max-w-sm">
                         <p>{t('recruitment.description')}</p>
                         <p>{t('recruitment.teamDescription')}</p>
-                        <p>+6287712622018</p>
+                        <p>+639453380162</p>
                     </div>
                 </div>
 

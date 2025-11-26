@@ -8,7 +8,15 @@ import { ToastContainer, toast } from 'react-toastify'
 
 const DownloadSection = () => {
   const { t } = useTranslation()
-  const notify = () => toast('Coming soon!')
+  const notify = () => toast('Coming soon!', {
+    position: "top-center",
+    autoClose: 5000,
+    hideProgressBar: false,
+    closeOnClick: true,
+    pauseOnHover: true,
+    progress: undefined,
+    theme: "colored",
+  })
 
   return (
     <>
@@ -131,14 +139,14 @@ const DownloadSection = () => {
                 }}
                 className="mb-3 text-sm text-gray-600"
               />
-              <button>
-                <a
-                  href="https://testflight.apple.com/join/F2PxchFb"
+              <button onClick={notify}>
+                {/* <a
+                  href="https://testflight.apple.com/"
                   target="_blank"
                   rel='noreferrer'
-                >
-                  <AppStoreLink />
-                </a>
+                > */}
+                <AppStoreLink />
+                {/* </a> */}
               </button>
             </div>
           </div>

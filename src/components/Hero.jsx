@@ -144,28 +144,28 @@ function Chart({
       className={clsx(className, 'overflow-visible')}
       {...(interactionEnabled
         ? {
-            onPointerLeave: () => onChangeActivePointIndex(null),
-            onPointerMove: (event) => {
-              let x = event.nativeEvent.offsetX
-              let closestPointIndex
-              let closestDistance = Infinity
-              for (
-                let pointIndex = 0;
-                pointIndex < points.length;
-                pointIndex++
-              ) {
-                let point = points[pointIndex]
-                let distance = Math.abs(point.x - x)
-                if (distance < closestDistance) {
-                  closestDistance = distance
-                  closestPointIndex = pointIndex
-                } else {
-                  break
-                }
+          onPointerLeave: () => onChangeActivePointIndex(null),
+          onPointerMove: (event) => {
+            let x = event.nativeEvent.offsetX
+            let closestPointIndex
+            let closestDistance = Infinity
+            for (
+              let pointIndex = 0;
+              pointIndex < points.length;
+              pointIndex++
+            ) {
+              let point = points[pointIndex]
+              let distance = Math.abs(point.x - x)
+              if (distance < closestDistance) {
+                closestDistance = distance
+                closestPointIndex = pointIndex
+              } else {
+                break
               }
-              onChangeActivePointIndex(closestPointIndex)
-            },
-          }
+            }
+            onChangeActivePointIndex(closestPointIndex)
+          },
+        }
         : {})}
       {...props}
     >
@@ -242,7 +242,15 @@ function Chart({
 
 const Hero = () => {
   const { t } = useTranslation()
-  const notify = () => toast('Coming soon!')
+  const notify = () => toast('Coming soon!', {
+    position: "top-center",
+    autoClose: 5000,
+    hideProgressBar: false,
+    closeOnClick: true,
+    pauseOnHover: true,
+    progress: undefined,
+    theme: "colored",
+  })
 
   return (
     <div className="overflow-hidden py-20 sm:py-32 lg:pb-32 xl:pb-36">
@@ -256,20 +264,24 @@ const Hero = () => {
               {t('hero.description')}
             </p>
             <div className="mt-8 flex flex-wrap gap-x-6 gap-y-4">
-              <a
-                href="https://testflight.apple.com/join/F2PxchFb"
-                target="_blank"
-                rel='noreferrer'
+              <div
+                // href="https://testflight.apple.com/"
+                // target="_blank"
+                // rel='noreferrer'
+                onClick={notify}
               >
                 <AppStoreLink />
-              </a>
-              <a
+                <p className="mt-2 text-sm text-gray-500 text-center w-full">Comming Soon</p>
+
+              </div>
+
+              {/* <a
                 href="https://play.google.com/store/apps/details?id=id.web.aplikasiku.xinchat"
                 target="_blank"
                 rel='noreferrer'
               >
                 <Image src={PlayStore} height={0} width={135} />
-              </a>
+              </a> */}
             </div>
           </div>
           <div className="relative mt-10 sm:mt-20 lg:col-span-5 lg:row-span-2 lg:mt-0 xl:col-span-6">

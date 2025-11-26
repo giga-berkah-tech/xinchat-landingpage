@@ -15,10 +15,10 @@ const Layout = ({ children }) => {
   return (
     <>
       <Head>
-        <title>XinChat - Connect important information.</title>
+        <title>Xinchat Work+ - Focused chat built for work.</title>
         <meta
           name="description"
-          content="By leveraging insights from our network of industry insiders, you’ll know exactly when to buy to maximize profit, and exactly when to sell to avoid painful losses."
+          content="Xinchat Work+ is a focused text-only chat workspace with notes, sketches, and built-in GPT so freelancers and small teams can move from talking to doing without distractions."
         />
       </Head>
       <Header />

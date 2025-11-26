@@ -10,7 +10,7 @@ function Logo(props) {
       {...props}
     >
       <Image src={Icon} alt="Logomark" width="25" height="25" {...props} />
-      <h2 className="font-semibold text-white">Xinchat</h2>
+      <h2 className="font-semibold text-white">Xinchat Work+</h2>
     </div>
   )
 }

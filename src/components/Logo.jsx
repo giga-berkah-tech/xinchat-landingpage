@@ -17,7 +17,7 @@ export function Logo(props) {
   return (
     <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }} {...props}>
       <Logomark />
-      <h2 className='font-semibold'>Xinchat</h2>
+      <h2 className='font-semibold'>Xinchat Work+</h2>
     </div>
   );
 }

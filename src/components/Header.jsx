@@ -80,8 +80,7 @@ function Dropdown({ ...props }) {
                   <Listbox.Option
                     key={languageIdx}
                     className={({ active }) =>
-                      `relative cursor-default select-none py-2 px-4 ${
-                        active ? 'bg-amber-100 text-amber-900' : 'text-gray-900'
+                      `relative cursor-default select-none py-2 px-4 ${active ? 'bg-amber-100 text-amber-900' : 'text-gray-900'
                       }`
                     }
                     value={language}
@@ -89,9 +88,8 @@ function Dropdown({ ...props }) {
                     {({ selected }) => (
                       <>
                         <span
-                          className={`block truncate ${
-                            selected ? 'font-medium' : 'font-normal'
-                          }`}
+                          className={`block truncate ${selected ? 'font-medium' : 'font-normal'
+                            }`}
                         >
                           {language.name}
                         </span>
@@ -201,9 +199,7 @@ const Header = () => {
                             <MobileNavLink href="/recruitment">
                               {t('Join Our Team')}
                             </MobileNavLink>
-                            <MobileNavLink href="/pricing">
-                              {t('Pricing & Plans')}
-                            </MobileNavLink>
+
                           </div>
                           <div className="mt-8 flex flex-col gap-4">
                             {/* <Button href="/login" variant="outline">

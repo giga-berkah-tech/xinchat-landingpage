@@ -31,7 +31,7 @@ const Footer = () => {
             <div className="flex items-center text-gray-900">
               <Logomark className="h-10 w-10 flex-none fill-cyan-500" />
               <div className="ml-4">
-                <p className="text-base font-semibold">XinChat</p>
+                <p className="text-base font-semibold">Xinchat Work+</p>
                 <p className="mt-1 text-sm">{t('hero.title')}</p>
               </div>
             </div>
@@ -39,7 +39,7 @@ const Footer = () => {
               <NavLinks />
             </nav>
           </div>
-          <div className="group relative -mx-4 flex items-center self-stretch p-4 transition-colors hover:bg-gray-100 sm:self-auto sm:rounded-2xl lg:mx-0 lg:self-auto lg:p-6">
+          {/* <div className="group relative -mx-4 flex items-center self-stretch p-4 transition-colors hover:bg-gray-100 sm:self-auto sm:rounded-2xl lg:mx-0 lg:self-auto lg:p-6">
             <div className="relative flex h-24 w-24 flex-none items-center justify-center">
               <QrCodeBorder className="absolute inset-0 h-full w-full stroke-gray-300 transition-colors group-hover:stroke-cyan-500" />
               <Image src={qrCode} alt="" unoptimized />
@@ -55,10 +55,10 @@ const Footer = () => {
                 {t('Scan the QR code to download the app from the App Store')}
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
-        <div className="flex flex-col items-center border-t border-gray-200 pt-8 pb-12 md:flex-row-reverse md:justify-between md:pt-6">
-          <form className="flex w-full justify-center md:w-auto">
+        <div className="flex flex-col items-center border-t border-gray-200 pt-8 pb-12 md:flex-row md:justify-between md:pt-6">
+          {/* <form className="flex w-full justify-center md:w-auto">
             <TextField
               type="email"
               aria-label="Email address"
@@ -73,7 +73,7 @@ const Footer = () => {
               </span>
               <span className="lg:hidden">{t('Join newsletter')}</span>
             </Button>
-          </form>
+          </form> */}
           <div className="mt-6 text-sm text-gray-500 md:mt-0">
             <p>
               &copy; {t('Copyright')} {new Date().getFullYear()}. {t('All rights reserved')}
@@ -81,7 +81,7 @@ const Footer = () => {
             <p className="mt-2">
               {t('Need help? Reach out to us at ')}
               <a href="mailto:cs@aplikasiku.web.id" className="text-cyan-500 hover:underline">
-              cs@aplikasiku.web.id
+                cs@aplikasiku.web.id
               </a>
             </p>
           </div>

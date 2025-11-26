@@ -20,7 +20,7 @@ const terms = [
     list: [
       'Engage in any illegal or unauthorized activity.',
       'Upload or share harmful, abusive, or objectionable content, including but not limited to hate speech or explicit materials.',
-      'Use Xinchat to spam or harass other users.',
+      'Use Xinchat Work+ to spam or harass other users.',
       "Attempt to hack, disrupt, or interfere with the app's functionality.",
       "Collect or store personal data of other users without authorization.",
       "Impersonate any person or entity or misrepresent your affiliation with any individual or organization."
@@ -30,7 +30,7 @@ const terms = [
   {
     title: 'Intellectual Property',
     list: [
-      'All content, trademarks, logos, and intellectual property within Xinchat are owned by us or our licensors.',
+      'All content, trademarks, logos, and intellectual property within Xinchat Work+ are owned by us or our licensors.',
       'You may not copy, modify, distribute, or reuse any part of the App’s content without explicit written permission.'
     ],
   },
@@ -40,7 +40,7 @@ const terms = [
   {
     title: 'Limitation of Liability',
     list: [
-      'Xinchat and its affiliates are not responsible for any indirect, incidental, consequential, or punitive damages arising from your use of the App.',
+      'Xinchat Work+ and its affiliates are not responsible for any indirect, incidental, consequential, or punitive damages arising from your use of the App.',
       'We do not guarantee that the App will be errorfree, uninterrupted, or secure.',
       'We are not liable for any loss of data, damages caused by malware, unauthorized access, or other issues beyond our reasonable control.'
     ],
@@ -59,7 +59,7 @@ const terms = [
     title: 'Governing Law',
     list: [
       'These Terms are governed by the laws of [Your Country/Region].',
-      'Any disputes arising from the use of Xinchat will be resolved in the courts of [Your Jurisdiction].'
+      'Any disputes arising from the use of Xinchat Work+ will be resolved in the courts of [Your Jurisdiction].'
     ]
   },
   {

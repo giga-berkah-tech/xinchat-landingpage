@@ -2,8 +2,8 @@
     "welcome": "Welcome to our site!",
     "about": "About us",
     "hero": {
-        "title": "Connect important information",
-        "description": "Our platform enables seamless connections and efficient communication within your organization, allowing teams to share important information effortlessly and boost productivity. Every interaction is streamlined and purposeful, empowering teams to collaborate in a more fluid and effective way."
+        "title": "Focused chat built for work.",
+        "description": "Xinchat Work+ keeps freelancers and small teams aligned with text-only chat, fast notes, sketches, and built-in AI so you can move from talking to doing without distractions."
     },
     "Features": "Features",
     "Download": "Download",
@@ -13,34 +13,34 @@
     "Join Our Team": "Join Our Team",
     "Pricing & Plans": "Pricing & Plans",
     "primaryFeatures": {
-        "title": "Every feature you need to win. Try it for yourself.",
-        "description": "XinChat was created for organizations that prioritize seamless, secure communication within their teams. Unlike other messaging platforms, XinChat leads the way with innovative features designed to enhance internal collaboration, streamline communication, and protect privacy.",
+        "title": "Communicate, think, and organize in one workspace.",
+        "description": "Chat, notes, sketches, and AI stay together so you can work faster without switching apps.",
         "Register": {
-            "title": "Register",
-            "description": "Sign up quickly to set up your account and start collaborating with your team, ensuring smooth and secure communication right from the start."
+            "title": "Focused text-only chat",
+            "description": "Keep 1:1 and small group conversations clean, organized, and work-first—no social noise."
         },
         "Contact": {
-            "title": "Contact",
-            "description": "Stay connected with your team and colleagues, reaching out effortlessly for collaboration, support, or feedback."
+            "title": "Built-in GPT assistant",
+            "description": "Ask questions, draft replies, summarize long threads, or brainstorm ideas without leaving the chat."
         },
         "Profile": {
-            "title": "Profile",
-            "description": "Customize your profile and update your details to make XinChat work for you and your team, creating a personalized and efficient communication experience."
+            "title": "Notes and sketches in one tab",
+            "description": "Capture action items, client details, and quick diagrams beside your chats so you never lose context."
         }
     },
     "terms": {
         "title": "Terms and Conditions",
-        "date": "Effective Date: December, 16 2024",
-        "welcome": "Welcome to Xinchat",
-        "description": "Thank you for choosing Xinchat! By downloading, accessing, or using our mobile application (\"App\"), you agree to comply with these Terms and Conditions (\"Terms\"). If you do not agree with any of these Terms, please refrain from using the App.",
-        "end": "By using Xinchat, you acknowledge that you have read, understood, and agreed to these Terms.",
+        "date": "Effective Date: November, 26 2025",
+        "welcome": "Welcome to Xinchat Work+",
+        "description": "Thank you for choosing Xinchat Work+! By downloading, accessing, or using our mobile application (\"App\"), you agree to comply with these Terms and Conditions (\"Terms\"). If you do not agree with any of these Terms, please refrain from using the App.",
+        "end": "By using Xinchat Work+, you acknowledge that you have read, understood, and agreed to these Terms.",
         "Use of the Application": {
             "title": "Use of the Application",
-            "description": "Xinchat is provided on an \"as-is\" and \"as-available\" basis. We reserve the right to modify, suspend, or discontinue any part of the App at any time without prior notice. You agree to use the App only for lawful purposes and in compliance with all applicable laws and regulations."
+            "description": "Xinchat Work+ is provided on an \"as-is\" and \"as-available\" basis. We reserve the right to modify, suspend, or discontinue any part of the App at any time without prior notice. You agree to use the App only for lawful purposes and in compliance with all applicable laws and regulations."
         },
         "User Accounts": {
             "title": "User Accounts",
-            "description": "While using Xinchat, you agree not to:",
+            "description": "While using Xinchat Work+, you agree not to:",
             "bullet1": "To access certain features of the App, you may be required to create an account.",
             "bullet2": "You are responsible for maintaining the confidentiality of your account credentials and are solely responsible for all activities that occur under your account.",
             "bullet3": "You agree not to share your account details or use another user’s account without permission.",
@@ -48,10 +48,10 @@
         },
         "Prohibited Conduct": {
             "title": "Prohibited Conduct",
-            "description": "While using Xinchat, you agree not to:",
+            "description": "While using Xinchat Work+, you agree not to:",
             "bullet1": "Engage in any illegal or unauthorized activity.",
             "bullet2": "Upload or share harmful, abusive, or objectionable content, including but not limited to hate speech or explicit materials.",
-            "bullet3": "Use Xinchat to spam or harass other users.",
+            "bullet3": "Use Xinchat Work+ to spam or harass other users.",
             "bullet4": "Attempt to hack, disrupt, or interfere with the app's functionality.",
             "bullet5": "Collect or store personal data of other users without authorization.",
             "bullet6": "Impersonate any person or entity or misrepresent your affiliation with any individual or organization.",
@@ -59,18 +59,18 @@
         },
         "Intellectual Property": {
             "title": "Intellectual Property",
-            "description": "All content, logos, and intellectual property in Xinchat are owned by us or our licensors. You are not permitted to copy, modify, or reuse any materials without explicit permission.",
+            "description": "All content, logos, and intellectual property in Xinchat Work+ are owned by us or our licensors. You are not permitted to copy, modify, or reuse any materials without explicit permission.",
             "bullet1": "Engage in any illegal or unauthorized activity.",
             "bullet2": "Upload or share harmful, abusive, or objectionable content, including but not limited to hate speech or explicit materials."
         },
         "Privacy Policy": {
             "title": "Privacy Policy",
-            "description": "Your privacy is important to us. Please review our <a class='link' href='/privacy-policy'>Privacy Policy</a> to understand how we collect, use, and protect your personal data. By using Xinchat, you consent to our data practices as described in the Privacy Policy."
+            "description": "Your privacy is important to us. Please review our <a class='link' href='/privacy-policy'>Privacy Policy</a> to understand how we collect, use, and protect your personal data. By using Xinchat Work+, you consent to our data practices as described in the Privacy Policy."
         },
         "Limitation of Liability": {
             "title": "Limitation of Liability",
             "description": "To the maximum extent permitted by law:",
-            "bullet1": "Xinchat and its affiliates are not responsible for any indirect, incidental, consequential, or punitive damages arising from your use of the App.",
+            "bullet1": "Xinchat Work+ and its affiliates are not responsible for any indirect, incidental, consequential, or punitive damages arising from your use of the App.",
             "bullet2": "We do not guarantee that the App will be errorfree, uninterrupted, or secure.",
             "bullet3": "We are not liable for any loss of data, damages caused by malware, unauthorized access, or other issues beyond our reasonable control."
         },
@@ -87,7 +87,7 @@
         "Governing Law": {
             "title": "Governing Law & Dispute Resolution",
             "bullet1": "These Terms are governed by the laws of the Philippines.",
-            "bullet2": "Any disputes arising from the use of Xinchat will be resolved in the courts of the Philippines."
+            "bullet2": "Any disputes arising from the use of Xinchat Work+ will be resolved in the courts of the Philippines."
         },
         "Contact Us": {
             "title": "Contact Us",
@@ -96,9 +96,9 @@
     },
     "privacy": {
         "title": "Privacy Policy",
-        "date": "Effective Date: December, 16 2024",
-        "description": "Thank you for choosing XinChat, a mobile application designed to provide communication and chatting services. Protecting your privacy is important to us. This Privacy Policy outlines how XinChat we collects, uses, stores, and protects your personal information.",
-        "end": "By using Xinchat, you acknowledge that you have read, understood, and agreed to these Terms.",
+        "date": "Effective Date: November, 26 2025",
+        "description": "Thank you for choosing Xinchat Work+, a mobile app designed for text-only work chat with notes, sketches, and AI assistance. Protecting your privacy is important to us. This Privacy Policy outlines how Xinchat Work+ collects, uses, stores, and protects your personal information.",
+        "end": "By using Xinchat Work+, you acknowledge that you have read, understood, and agreed to these Terms.",
         "Information We Collect": {
             "title": "Information We Collect",
             "description": "We collect personal data to provide and improve our services. The information collected includes:",
@@ -148,7 +148,7 @@
     },
     "contact": {
         "title": "Contact Us",
-        "description": "Email, call, or complete the form to learn how Xinchat can solve your messaging problem.",
+        "description": "Email, call, or complete the form to see how Xinchat Work+ keeps your work chats clear and organized.",
         "box1": {
             "title": "Customer Support",
             "description": "Our support team is available around the clock to address any concerns or queries you may have."
@@ -166,7 +166,7 @@
         },
         "address": {
             "title": "Our Location",
-            "description": "10F, West Wing, The Rise, Makati, Makati, Metro Manila 1203, Philippines"
+            "description": "12F, The Rise, Makati, Makati, Metro Manila 1203, Philippines"
         }
     },
     "Download the app": "Download the app",
@@ -179,8 +179,8 @@
     "recruitment": {
         "title": "Be Part of Our Journey",
         "sendResume": "Apply via Email",
-        "description": "Passionate about transforming communication? Join XinChat and help us shape the future of messaging. We’re looking for innovative individuals to drive seamless chatting experiences.",
-        "teamDescription": "At XinChat, we foster collaboration and innovation, where every voice matters. Together, we’ll break communication barriers and build a global community.",
+        "description": "Passionate about focused, distraction-free collaboration? Join Xinchat Work+ and help freelancers and small teams communicate and work in one place.",
+        "teamDescription": "At Xinchat Work+, we prioritize clarity and momentum. Together we’ll build the workspace that keeps small teams aligned.",
         "benefits": {
             "title": "Why Join Us?",
             "description": "We offer a dynamic and inclusive environment where you can thrive. Here are some of the benefits you’ll enjoy.",
@@ -254,9 +254,9 @@
         "customPricing": "Interested in our services? Contact our team."
     },
     "download": {
-        "title": "Transform Your Communication",
-        "subtitle": "with Instant Connectivity",
-        "description": "Install XinChat on all your devices to stay engaged and continue every <br/> conversations.",
+        "title": "Bring your Work Space anywhere",
+        "subtitle": "with focused chat + AI",
+        "description": "Install Xinchat Work+ on every device to keep chat, notes, sketches, and AI in sync wherever you work.",
         "button": "Download Now",
         "pc/mac": "PC/Mac",
         "dekstop": "Desktop",
@@ -264,6 +264,6 @@
         "ios": "iOS",
         "mobilePhone": "Mobile Phone",
         "tablet": "Tablet",
-        "downloadDescription": "Stay ahead with quick, adaptable communication <br/> strategies for evolving business landscape"
+        "downloadDescription": "Move from conversations to action with one workspace for chat, notes, sketches, and AI."
     }
 }

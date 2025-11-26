@@ -1,1 +1,1 @@
-# xinchat-landingpage
+# Xinchat Work+ landingpage
