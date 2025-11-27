@@ -1,5 +1,6 @@
 import PlayStore from '@/images/logos/googleplay.svg'
-import Phone1 from '@/images/phone/b808ea7dedf (2).png'
+import Phone1 from '@/images/phone/list.png'
+
 import clsx from 'clsx'
 import { motion, useInView, useMotionValue } from 'framer-motion'
 import Image from 'next/image'
@@ -144,28 +145,28 @@ function Chart({
       className={clsx(className, 'overflow-visible')}
       {...(interactionEnabled
         ? {
-          onPointerLeave: () => onChangeActivePointIndex(null),
-          onPointerMove: (event) => {
-            let x = event.nativeEvent.offsetX
-            let closestPointIndex
-            let closestDistance = Infinity
-            for (
-              let pointIndex = 0;
-              pointIndex < points.length;
-              pointIndex++
-            ) {
-              let point = points[pointIndex]
-              let distance = Math.abs(point.x - x)
-              if (distance < closestDistance) {
-                closestDistance = distance
-                closestPointIndex = pointIndex
-              } else {
-                break
+            onPointerLeave: () => onChangeActivePointIndex(null),
+            onPointerMove: (event) => {
+              let x = event.nativeEvent.offsetX
+              let closestPointIndex
+              let closestDistance = Infinity
+              for (
+                let pointIndex = 0;
+                pointIndex < points.length;
+                pointIndex++
+              ) {
+                let point = points[pointIndex]
+                let distance = Math.abs(point.x - x)
+                if (distance < closestDistance) {
+                  closestDistance = distance
+                  closestPointIndex = pointIndex
+                } else {
+                  break
+                }
               }
-            }
-            onChangeActivePointIndex(closestPointIndex)
-          },
-        }
+              onChangeActivePointIndex(closestPointIndex)
+            },
+          }
         : {})}
       {...props}
     >
@@ -242,15 +243,16 @@ function Chart({
 
 const Hero = () => {
   const { t } = useTranslation()
-  const notify = () => toast('Coming soon!', {
-    position: "top-center",
-    autoClose: 5000,
-    hideProgressBar: false,
-    closeOnClick: true,
-    pauseOnHover: true,
-    progress: undefined,
-    theme: "colored",
-  })
+  const notify = () =>
+    toast('Coming soon!', {
+      position: 'top-center',
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      progress: undefined,
+      theme: 'colored',
+    })
 
   return (
     <div className="overflow-hidden py-20 sm:py-32 lg:pb-32 xl:pb-36">
@@ -271,8 +273,9 @@ const Hero = () => {
                 onClick={notify}
               >
                 <AppStoreLink />
-                <p className="mt-2 text-sm text-gray-500 text-center w-full">Comming Soon</p>
-
+                <p className="mt-2 w-full text-center text-sm text-gray-500">
+                  Comming Soon
+                </p>
               </div>
 
               {/* <a

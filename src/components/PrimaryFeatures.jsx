@@ -3,9 +3,9 @@ import { Tab } from '@headlessui/react'
 import clsx from 'clsx'
 import { AnimatePresence, motion } from 'framer-motion'
 import { useDebouncedCallback } from 'use-debounce'
-import Phone2 from '@/images/phone/b808ea7dedf (5).png'
-import Phone3 from '@/images/phone/b808ea7dedf (3).png'
-import Phone4 from '@/images/phone/b808ea7dedf (4).png'
+import Phone2 from '@/images/phone/chat.png'
+import Phone3 from '@/images/phone/gpt.png'
+import Phone4 from '@/images/phone/Note&Sketch.png'
 
 import { AppScreen } from '@/components/AppScreen'
 import { CircleBackground } from '@/components/CircleBackground'
@@ -29,19 +29,19 @@ const MotionAppScreenBody = motion(AppScreen.Body)
 
 const features = [
   {
-    name: 'Register',
+    name: 'Register', // Focused Text Only Chat
     icon: DeviceUserIcon,
     screen: InviteScreen,
     image: Phone2,
   },
   {
-    name: 'Contact',
+    name: 'Contact', //GPT
     icon: DeviceNotificationIcon,
     screen: StocksScreen,
     image: Phone3,
   },
   {
-    name: 'Profile',
+    name: 'Profile', //Note
     icon: DeviceTouchIcon,
     screen: InvestScreen,
     image: Phone4,

@@ -1,270 +1,270 @@
 {
-    "welcome": "欢迎来到我们的网站！",
-    "about": "关于我们",
-    "hero": {
-        "title": "为工作而生的专注聊天",
-        "description": "Xinchat Work+ 为自由职业者和小团队提供纯文本聊天、快速笔记、草图和内置 AI，让你在无干扰下从交流到执行。"
+  "welcome": "欢迎来到我们的网站！",
+  "about": "关于我们",
+  "hero": {
+    "title": "为工作而生的专注聊天",
+    "description": "Xinchat Work+ 为自由职业者和小团队提供纯文本聊天、快速笔记、草图和内置 AI，让你在无干扰下从交流到执行。"
+  },
+  "Features": "特征",
+  "Download": "下载",
+  "Term of Service": "服务条款",
+  "Privacy Policy": "隐私政策",
+  "Contact": "接触",
+  "Join Our Team": "加入我们的团队",
+  "Pricing & Plans": "定价与计划",
+  "primaryFeatures": {
+    "title": "在一个工作空间里沟通、思考并整理",
+    "description": "聊天、笔记、草图和 AI 全部放在一起，让你无需切换应用就能更快完成工作。",
+    "Register": {
+      "title": "专注的纯文本聊天",
+      "description": "让一对一和小组对话保持清晰、有序、以工作为先——没有社交噪音。"
     },
-    "Features": "特征",
-    "Download": "下载",
-    "Term of Service": "服务条款",
-    "Privacy Policy": "隐私政策",
-    "Contact": "接触",
-    "Join Our Team": "加入我们的团队",
-    "Pricing & Plans": "定价与计划",
-    "primaryFeatures": {
-        "title": "在一个工作空间里沟通、思考并整理",
-        "description": "聊天、笔记、草图和 AI 全部放在一起，让你无需切换应用就能更快完成工作。",
-        "Register": {
-            "title": "专注的纯文本聊天",
-            "description": "让一对一和小组对话保持清晰、有序、以工作为先——没有社交噪音。"
-        },
-        "Contact": {
-            "title": "内置 GPT 助手",
-            "description": "在聊天里直接提问、起草回复、总结长消息或头脑风暴。"
-        },
-        "Profile": {
-            "title": "笔记与草图同在一个标签页",
-            "description": "在聊天旁边记录行动项、客户信息和快速图示，随时保持上下文。"
-        }
+    "Contact": {
+      "title": "内置 GPT 助手",
+      "description": "在聊天里直接提问、起草回复、总结长消息或头脑风暴。"
     },
-    "terms": {
-        "title": "条款和条件",
-        "date": "生效日期：2024年12月16日",
-        "welcome": "欢迎使用Xinchat Work+",
-        "description": "感谢您选择Xinchat Work+！通过下载、访问或使用我们的移动应用程序（\"应用程序\"），您同意遵守这些条款和条件（\"条款\"）。如果您不同意这些条款中的任何内容，请不要使用该应用程序。",
-        "end": "通过使用Xinchat Work+，您确认您已阅读、理解并同意这些条款。",
-        "Use of the Application": {
-            "title": "应用程序的使用",
-            "description": "Xinchat Work+按“现状”和“可用”基础提供。我们保留随时修改、暂停或终止应用程序任何部分的权利，恕不另行通知。您同意仅将应用程序用于合法目的，并遵守所有适用的法律和法规。"
-        },
-        "User Accounts": {
-            "title": "用户账户",
-            "description": "在使用Xinchat Work+时，您同意不：",
-            "bullet1": "为了访问应用程序的某些功能，您可能需要创建一个账户。",
-            "bullet2": "您有责任保持账户凭据的机密性，并对在您的账户下发生的所有活动承担唯一责任。",
-            "bullet3": "您同意不分享您的账户信息或未经许可使用其他用户的账户。",
-            "bullet4": "如果您怀疑您的账户被未经授权使用，您必须立即通知我们。"
-        },
-        "Prohibited Conduct": {
-            "title": "禁止行为",
-            "description": "在使用Xinchat Work+时，您同意不：",
-            "bullet1": "从事任何非法或未经授权的活动。",
-            "bullet2": "上传或分享有害、侮辱性、诽谤性、淫秽或令人反感的内容，包括但不限于仇恨言论或色情材料。",
-            "bullet3": "使用Xinchat Work+进行垃圾邮件或骚扰其他用户。",
-            "bullet4": "试图破解、干扰或破坏应用程序的功能。",
-            "bullet5": "未经授权收集或存储其他用户的个人数据。",
-            "bullet6": "冒充任何人或实体，或虚假陈述您与任何个人或组织的关系。",
-            "description2": "违反这些条款可能导致您的账户被暂停或终止，并可能采取法律行动。"
-        },
-        "Intellectual Property": {
-            "title": "知识产权",
-            "description": "所有Xinchat Work+中的内容、商标和知识产权均由我们或我们的许可方拥有。未经明确许可，您不得复制、修改或重复使用任何材料。",
-            "bullet1": "从事任何非法或未经授权的活动。",
-            "bullet2": "上传或分享有害、侮辱性、诽谤性、淫秽或令人反感的内容，包括但不限于仇恨言论或色情材料。"
-        },
-        "Privacy Policy": {
-            "title": "隐私政策",
-            "description": "我们非常重视您的隐私。请查阅我们的<a class='link' href='/privacy-policy'>隐私政策</a>，了解我们如何收集、使用和保护您的个人数据。通过使用Xinchat Work+，您同意我们的数据实践，如隐私政策中所述。"
-        },
-        "Limitation of Liability": {
-            "title": "责任限制",
-            "description": "在法律允许的最大范围内：",
-            "bullet1": "Xinchat Work+及其附属公司对您使用应用程序过程中产生的任何间接、附带、后果性或惩罚性损害不承担责任。",
-            "bullet2": "我们不保证应用程序无错误、不间断或安全。",
-            "bullet3": "我们不对任何数据丢失、由恶意软件、未经授权的访问或其他超出我们合理控制范围的问题造成的损害负责。"
-        },
-        "Termination": {
-            "title": "终止",
-            "description": "我们保留以下权利：",
-            "bullet1": "在任何时候，如果您违反这些条款或从事禁止的行为，我们可以暂停或终止您对应用程序的访问，无论是否提前通知。",
-            "bullet2": "删除或禁用违反这些条款或适用法律的内容。"
-        },
-        "Changes to Terms": {
-            "title": "条款变更",
-            "description": "我们可能会不时更新这些条款。任何变更将在应用程序内发布修订后的条款后立即生效。您继续使用该应用程序即表示您接受更新后的条款。"
-        },
-        "Governing Law": {
-            "title": "适用法律与争议解决",
-            "bullet1": "这些条款受菲律宾法律管辖。",
-            "bullet2": "因使用 Xinchat Work+ 而产生的任何纠纷将由菲律宾法院解决。"
-        },
-        "Contact Us": {
-            "title": "联系我们",
-            "description": "如果您对这些条款有任何疑问或关注，请通过电子邮件与我们联系：<a class='link' href='mailto:cs@aplikasiku.web.id'>cs@aplikasiku.web.id</a>"
-        }
-    },
-    "privacy": {
-        "title": "隐私政策",
-        "date": "生效日期：2024年12月16日",
-        "description": "感谢您选择Xinchat Work+，这是一款提供纯文本工作聊天、笔记、草图和 AI 助理的移动应用程序。保护您的隐私对我们非常重要。本隐私政策概述了Xinchat Work+如何收集、使用、存储和保护您的个人信息。",
-        "end": "使用Xinchat Work+即表示您已阅读、理解并同意这些条款。",
-        "Information We Collect": {
-            "title": "我们收集的信息",
-            "description": "我们收集个人数据以提供和改进我们的服务。收集的信息包括：",
-            "bullet1": "<b>个人信息：</b> 注册期间收集的，例如姓名、电子邮件地址以及您提供的其他详细信息。",
-            "bullet2": "<b>使用数据：</b> 有关您如何与应用程序互动的信息。"
-        },
-        "How We Use Your Information": {
-            "title": "我们如何使用您的信息",
-            "description": "我们将收集的信息用于以下目的：",
-            "bullet1": "<b>账户注册：</b> 用于创建和管理您的用户账户。",
-            "bullet2": "<b>服务改进：</b> 提升服务的性能、安全性和功能。",
-            "bullet3": "<b>客户支持：</b> 回复查询并提供帮助。",
-            "bullet4": "<b>安全和防欺诈：</b> 防止未经授权的访问、滥用或非法活动。"
-        },
-        "Data Storage and Security": {
-            "title": "数据存储和安全",
-            "bullet1": "我们将您的个人信息安全地存储在我们的数据库中。我们实施合理的安全措施，以保护您的信息免受未经授权的访问、更改或破坏。",
-            "bullet2": "尽管我们努力使用商业上可接受的手段保护您的数据，但互联网上的数据传输或电子存储方法无法保证100%的安全性。因此，我们无法保证其绝对安全。"
-        },
-        "Third-Party Services": {
-            "title": "第三方服务",
-            "description": "我们使用第三方服务来改进我们的功能，具体包括：",
-            "bullet1": "<b>ChatGPT API：</b> 使用人工智能功能增强用户体验。",
-            "note": "我们不会将您的个人数据共享给第三方公司用于营销或无关目的。"
-        },
-        "Your Rights": {
-            "title": "您的权利",
-            "description": "作为用户，您拥有以下权利：",
-            "bullet1": "<b>访问您的数据：</b> 您可以请求访问我们收集的关于您的数据。",
-            "bullet2": "<b>更新您的数据：</b> 您可以请求更正您的个人信息。",
-            "bullet3": "<b>删除您的数据：</b> 您可以请求从我们的系统中删除您的个人信息。",
-            "note": "行使这些权利，请通过<a class='link' href='mailto:cs@aplikasiku.web.id'>cs@aplikasiku.web.id</a>联系我们。"
-        },
-        "Data Retention": {
-            "title": "数据保留",
-            "description": "我们仅在提供服务、履行法律义务或解决争议所需的时间内保留您的个人信息。"
-        },
-        "Changes to This Privacy Policy": {
-            "title": "隐私政策的变更",
-            "description": "我们保留随时修改本隐私政策的权利。您在任何更改后继续使用应用程序，即表示您接受更新后的隐私政策。",
-            "note": "建议您定期查看本隐私政策的更新。"
-        },
-        "Contact Us": {
-            "title": "联系我们",
-            "description": "如果您对本隐私政策有任何疑问或疑虑，请联系我们：电子邮件：<a class='link' href='mailto:cs@aplikasiku.web.id'>cs@aplikasiku.web.id</a>"
-        }
-    },
-    "contact": {
-        "title": "联系我们",
-        "description": "发送电子邮件、致电或填写表格，了解 Xinchat Work+ 如何让你的工作聊天更清晰、高效。",
-        "box1": {
-            "title": "客户支持",
-            "description": "我们的支持团队全天候提供帮助，解决您可能遇到的任何疑虑或疑问。"
-        },
-        "box2": {
-            "title": "反馈与建议",
-            "description": "我们重视您的反馈，并不断努力改进。您的意见对于塑造我们服务的未来至关重要。"
-        },
-        "form": {
-            "title": "联系我们",
-            "name": "姓名",
-            "email": "电子邮件",
-            "message": "信息",
-            "submit": "提交表格"
-        },
-        "address": {
-            "title": "我们的位置",
-            "description": "12F The Rise, Makati, Makati, Metro Manila 1203, Philippines"
-        }
-    },
-    "Download the app": "下载应用程序",
-    "Scan the QR code to download the app from the App Store": "扫描二维码从App Store下载应用程序。",
-    "Need help? Reach out to us at ": "需要帮助？请联系我们 ",
-    "Join our newsletter": "加入我们的时事通讯",
-    "Join newsletter": "加入时事通讯",
-    "Copyright": "版权",
-    "All rights reserved": "版权所有。",
-    "Email address": "电子邮件",
-    "recruitment": {
-        "title": "成为我们旅程的一部分",
-        "sendResume": "通过电子邮件申请",
-        "description": "热衷于改变沟通方式吗？加入 Xinchat Work+，为自由职业者和小团队打造专注的工作空间。",
-        "teamDescription": "在 Xinchat Work+，我们把效率和专注放在首位，协作与创新并行。一起为全球小团队构建更好的工作方式。",
-        "benefits": {
-            "title": "为什么加入我们？",
-            "description": "我们提供一个充满活力和包容的环境，让您能够茁壮成长。以下是您将享受的一些福利：",
-            "item1": "具有竞争力的薪资",
-            "item2": "健康保险",
-            "item3": "职业发展机会"
-        },
-        "jobs": {
-            "title": "职位空缺",
-            "job1": {
-                "title": "软件工程师",
-                "description": "加入我们的工程团队，构建尖端的软件解决方案。"
-            },
-            "job2": {
-                "title": "产品经理",
-                "description": "帮助塑造我们的产品未来，以用户为中心的设计。"
-            },
-            "job3": {
-                "title": "UI/UX 设计师",
-                "description": "设计引人入胜的用户界面，提升用户体验。"
-            },
-            "job4": {
-                "title": "市场专员",
-                "description": "制定策略，提升我们的品牌存在感和参与度。"
-            },
-            "job5": {
-                "title": "客户支持代表",
-                "description": "通过各种渠道为我们的客户提供卓越的支持。"
-            }
-        }
-    },
-    "pricing": {
-        "title": "选择您的计划并联系支持人员开始试用",
-        "description": "通过我们灵活的定价选项，找到适合您业务的完美计划。",
-        "featuresTitle": "包含的功能",
-        "features": {
-            "item1": "无限消息",
-            "item1Description": "发送您需要的任意数量的消息，毫无限制。",
-            "item2": "高级加密",
-            "item2Description": "通过端对端加密确保您的聊天完全安全。",
-            "item3": "跨平台支持",
-            "item3Description": "随时随地在任何设备上访问聊天应用。"
-        },
-        "plans": {
-            "title": "定价方案",
-            "free": {
-                "title": "免费计划",
-                "description": "适合个人或小团队。",
-                "price": "$0/月",
-                "button": "开始使用"
-            },
-            "basic": {
-                "title": "基础计划",
-                "description": "适合小型企业。",
-                "price": "$2/月",
-                "button": "立即开始"
-            },
-            "pro": {
-                "title": "专业计划",
-                "description": "适合成长中的企业，提供高级功能。",
-                "price": "$10/月",
-                "button": "试用专业版"
-            },
-            "enterprise": {
-                "title": "企业计划",
-                "description": "为大型组织提供定制化解决方案。",
-                "price": "联系我们",
-                "button": "请求报价"
-            }
-        },
-        "customPricing": "对我们的服务感兴趣？请联系我们的团队。"
-    },
-    "download": {
-        "title": "随时随地带上你的工作空间",
-        "subtitle": "专注聊天 + AI",
-        "description": "在所有设备上安装 Xinchat Work+，让聊天、笔记、草图和 AI 同步工作。",
-        "button": "立即下载",
-        "pc/mac": "PC/Mac",
-        "dekstop": "桌面",
-        "android": "安卓",
-        "ios": "iOS",
-        "mobilePhone": "手机",
-        "tablet": "平板",
-        "downloadDescription": "从对话到行动，在一个工作空间完成聊天、笔记、草图与 AI。"
+    "Profile": {
+      "title": "笔记与草图同在一个标签页",
+      "description": "在聊天旁边记录行动项、客户信息和快速图示，随时保持上下文。"
     }
+  },
+  "terms": {
+    "title": "条款和条件",
+    "date": "生效日期：2025年11月26日",
+    "welcome": "欢迎使用Xinchat Work+",
+    "description": "感谢您选择Xinchat Work+！通过下载、访问或使用我们的移动应用程序（\"应用程序\"），您同意遵守这些条款和条件（\"条款\"）。如果您不同意这些条款中的任何内容，请不要使用该应用程序。",
+    "end": "通过使用Xinchat Work+，您确认您已阅读、理解并同意这些条款。",
+    "Use of the Application": {
+      "title": "应用程序的使用",
+      "description": "Xinchat Work+按“现状”和“可用”基础提供。我们保留随时修改、暂停或终止应用程序任何部分的权利，恕不另行通知。您同意仅将应用程序用于合法目的，并遵守所有适用的法律和法规。"
+    },
+    "User Accounts": {
+      "title": "用户账户",
+      "description": "在使用Xinchat Work+时，您同意不：",
+      "bullet1": "为了访问应用程序的某些功能，您可能需要创建一个账户。",
+      "bullet2": "您有责任保持账户凭据的机密性，并对在您的账户下发生的所有活动承担唯一责任。",
+      "bullet3": "您同意不分享您的账户信息或未经许可使用其他用户的账户。",
+      "bullet4": "如果您怀疑您的账户被未经授权使用，您必须立即通知我们。"
+    },
+    "Prohibited Conduct": {
+      "title": "禁止行为",
+      "description": "在使用Xinchat Work+时，您同意不：",
+      "bullet1": "从事任何非法或未经授权的活动。",
+      "bullet2": "上传或分享有害、侮辱性、诽谤性、淫秽或令人反感的内容，包括但不限于仇恨言论或色情材料。",
+      "bullet3": "使用Xinchat Work+进行垃圾邮件或骚扰其他用户。",
+      "bullet4": "试图破解、干扰或破坏应用程序的功能。",
+      "bullet5": "未经授权收集或存储其他用户的个人数据。",
+      "bullet6": "冒充任何人或实体，或虚假陈述您与任何个人或组织的关系。",
+      "description2": "违反这些条款可能导致您的账户被暂停或终止，并可能采取法律行动。"
+    },
+    "Intellectual Property": {
+      "title": "知识产权",
+      "description": "所有Xinchat Work+中的内容、商标和知识产权均由我们或我们的许可方拥有。未经明确许可，您不得复制、修改或重复使用任何材料。",
+      "bullet1": "从事任何非法或未经授权的活动。",
+      "bullet2": "上传或分享有害、侮辱性、诽谤性、淫秽或令人反感的内容，包括但不限于仇恨言论或色情材料。"
+    },
+    "Privacy Policy": {
+      "title": "隐私政策",
+      "description": "我们非常重视您的隐私。请查阅我们的<a class='link' href='/privacy-policy'>隐私政策</a>，了解我们如何收集、使用和保护您的个人数据。通过使用Xinchat Work+，您同意我们的数据实践，如隐私政策中所述。"
+    },
+    "Limitation of Liability": {
+      "title": "责任限制",
+      "description": "在法律允许的最大范围内：",
+      "bullet1": "Xinchat Work+及其附属公司对您使用应用程序过程中产生的任何间接、附带、后果性或惩罚性损害不承担责任。",
+      "bullet2": "我们不保证应用程序无错误、不间断或安全。",
+      "bullet3": "我们不对任何数据丢失、由恶意软件、未经授权的访问或其他超出我们合理控制范围的问题造成的损害负责。"
+    },
+    "Termination": {
+      "title": "终止",
+      "description": "我们保留以下权利：",
+      "bullet1": "在任何时候，如果您违反这些条款或从事禁止的行为，我们可以暂停或终止您对应用程序的访问，无论是否提前通知。",
+      "bullet2": "删除或禁用违反这些条款或适用法律的内容。"
+    },
+    "Changes to Terms": {
+      "title": "条款变更",
+      "description": "我们可能会不时更新这些条款。任何变更将在应用程序内发布修订后的条款后立即生效。您继续使用该应用程序即表示您接受更新后的条款。"
+    },
+    "Governing Law": {
+      "title": "适用法律与争议解决",
+      "bullet1": "这些条款受菲律宾法律管辖。",
+      "bullet2": "因使用 Xinchat Work+ 而产生的任何纠纷将由菲律宾法院解决。"
+    },
+    "Contact Us": {
+      "title": "联系我们",
+      "description": "如果您对这些条款有任何疑问或关注，请通过电子邮件与我们联系：<a class='link' href='mailto:cs@aplikasiku.web.id'>cs@aplikasiku.web.id</a>"
+    }
+  },
+  "privacy": {
+    "title": "隐私政策",
+    "date": "生效日期：2025年11月26日",
+    "description": "感谢您选择Xinchat Work+，这是一款提供纯文本工作聊天、笔记、草图和 AI 助理的移动应用程序。保护您的隐私对我们非常重要。本隐私政策概述了Xinchat Work+如何收集、使用、存储和保护您的个人信息。",
+    "end": "使用Xinchat Work+即表示您已阅读、理解并同意这些条款。",
+    "Information We Collect": {
+      "title": "我们收集的信息",
+      "description": "我们收集个人数据以提供和改进我们的服务。收集的信息包括：",
+      "bullet1": "<b>个人信息：</b> 注册期间收集的，例如姓名、电子邮件地址以及您提供的其他详细信息。",
+      "bullet2": "<b>使用数据：</b> 有关您如何与应用程序互动的信息。"
+    },
+    "How We Use Your Information": {
+      "title": "我们如何使用您的信息",
+      "description": "我们将收集的信息用于以下目的：",
+      "bullet1": "<b>账户注册：</b> 用于创建和管理您的用户账户。",
+      "bullet2": "<b>服务改进：</b> 提升服务的性能、安全性和功能。",
+      "bullet3": "<b>客户支持：</b> 回复查询并提供帮助。",
+      "bullet4": "<b>安全和防欺诈：</b> 防止未经授权的访问、滥用或非法活动。"
+    },
+    "Data Storage and Security": {
+      "title": "数据存储和安全",
+      "bullet1": "我们将您的个人信息安全地存储在我们的数据库中。我们实施合理的安全措施，以保护您的信息免受未经授权的访问、更改或破坏。",
+      "bullet2": "尽管我们努力使用商业上可接受的手段保护您的数据，但互联网上的数据传输或电子存储方法无法保证100%的安全性。因此，我们无法保证其绝对安全。"
+    },
+    "Third-Party Services": {
+      "title": "第三方服务",
+      "description": "我们使用第三方服务来改进我们的功能，具体包括：",
+      "bullet1": "<b>ChatGPT API：</b> 使用人工智能功能增强用户体验。",
+      "note": "我们不会将您的个人数据共享给第三方公司用于营销或无关目的。"
+    },
+    "Your Rights": {
+      "title": "您的权利",
+      "description": "作为用户，您拥有以下权利：",
+      "bullet1": "<b>访问您的数据：</b> 您可以请求访问我们收集的关于您的数据。",
+      "bullet2": "<b>更新您的数据：</b> 您可以请求更正您的个人信息。",
+      "bullet3": "<b>删除您的数据：</b> 您可以请求从我们的系统中删除您的个人信息。",
+      "note": "行使这些权利，请通过<a class='link' href='mailto:cs@aplikasiku.web.id'>cs@aplikasiku.web.id</a>联系我们。"
+    },
+    "Data Retention": {
+      "title": "数据保留",
+      "description": "我们仅在提供服务、履行法律义务或解决争议所需的时间内保留您的个人信息。"
+    },
+    "Changes to This Privacy Policy": {
+      "title": "隐私政策的变更",
+      "description": "我们保留随时修改本隐私政策的权利。您在任何更改后继续使用应用程序，即表示您接受更新后的隐私政策。",
+      "note": "建议您定期查看本隐私政策的更新。"
+    },
+    "Contact Us": {
+      "title": "联系我们",
+      "description": "如果您对本隐私政策有任何疑问或疑虑，请联系我们：电子邮件：<a class='link' href='mailto:cs@aplikasiku.web.id'>cs@aplikasiku.web.id</a>"
+    }
+  },
+  "contact": {
+    "title": "联系我们",
+    "description": "发送电子邮件、致电或填写表格，了解 Xinchat Work+ 如何让你的工作聊天更清晰、高效。",
+    "box1": {
+      "title": "客户支持",
+      "description": "我们的支持团队全天候提供帮助，解决您可能遇到的任何疑虑或疑问。"
+    },
+    "box2": {
+      "title": "反馈与建议",
+      "description": "我们重视您的反馈，并不断努力改进。您的意见对于塑造我们服务的未来至关重要。"
+    },
+    "form": {
+      "title": "联系我们",
+      "name": "姓名",
+      "email": "电子邮件",
+      "message": "信息",
+      "submit": "提交表格"
+    },
+    "address": {
+      "title": "我们的位置",
+      "description": "12F The Rise, Makati, Makati, Metro Manila 1203, Philippines"
+    }
+  },
+  "Download the app": "下载应用程序",
+  "Scan the QR code to download the app from the App Store": "扫描二维码从App Store下载应用程序。",
+  "Need help? Reach out to us at ": "需要帮助？请联系我们 ",
+  "Join our newsletter": "加入我们的时事通讯",
+  "Join newsletter": "加入时事通讯",
+  "Copyright": "版权",
+  "All rights reserved": "版权所有。",
+  "Email address": "电子邮件",
+  "recruitment": {
+    "title": "成为我们旅程的一部分",
+    "sendResume": "通过电子邮件申请",
+    "description": "热衷于改变沟通方式吗？加入 Xinchat Work+，为自由职业者和小团队打造专注的工作空间。",
+    "teamDescription": "在 Xinchat Work+，我们把效率和专注放在首位，协作与创新并行。一起为全球小团队构建更好的工作方式。",
+    "benefits": {
+      "title": "为什么加入我们？",
+      "description": "我们提供一个充满活力和包容的环境，让您能够茁壮成长。以下是您将享受的一些福利：",
+      "item1": "具有竞争力的薪资",
+      "item2": "健康保险",
+      "item3": "职业发展机会"
+    },
+    "jobs": {
+      "title": "职位空缺",
+      "job1": {
+        "title": "软件工程师",
+        "description": "加入我们的工程团队，构建尖端的软件解决方案。"
+      },
+      "job2": {
+        "title": "产品经理",
+        "description": "帮助塑造我们的产品未来，以用户为中心的设计。"
+      },
+      "job3": {
+        "title": "UI/UX 设计师",
+        "description": "设计引人入胜的用户界面，提升用户体验。"
+      },
+      "job4": {
+        "title": "市场专员",
+        "description": "制定策略，提升我们的品牌存在感和参与度。"
+      },
+      "job5": {
+        "title": "客户支持代表",
+        "description": "通过各种渠道为我们的客户提供卓越的支持。"
+      }
+    }
+  },
+  "pricing": {
+    "title": "选择您的计划并联系支持人员开始试用",
+    "description": "通过我们灵活的定价选项，找到适合您业务的完美计划。",
+    "featuresTitle": "包含的功能",
+    "features": {
+      "item1": "无限消息",
+      "item1Description": "发送您需要的任意数量的消息，毫无限制。",
+      "item2": "高级加密",
+      "item2Description": "通过端对端加密确保您的聊天完全安全。",
+      "item3": "跨平台支持",
+      "item3Description": "随时随地在任何设备上访问聊天应用。"
+    },
+    "plans": {
+      "title": "定价方案",
+      "free": {
+        "title": "免费计划",
+        "description": "适合个人或小团队。",
+        "price": "$0/月",
+        "button": "开始使用"
+      },
+      "basic": {
+        "title": "基础计划",
+        "description": "适合小型企业。",
+        "price": "$2/月",
+        "button": "立即开始"
+      },
+      "pro": {
+        "title": "专业计划",
+        "description": "适合成长中的企业，提供高级功能。",
+        "price": "$10/月",
+        "button": "试用专业版"
+      },
+      "enterprise": {
+        "title": "企业计划",
+        "description": "为大型组织提供定制化解决方案。",
+        "price": "联系我们",
+        "button": "请求报价"
+      }
+    },
+    "customPricing": "对我们的服务感兴趣？请联系我们的团队。"
+  },
+  "download": {
+    "title": "随时随地带上你的工作空间",
+    "subtitle": "专注聊天 + AI",
+    "description": "在所有设备上安装 Xinchat Work+，让聊天、笔记、草图和 AI 同步工作。",
+    "button": "立即下载",
+    "pc/mac": "PC/Mac",
+    "dekstop": "桌面",
+    "android": "安卓",
+    "ios": "iOS",
+    "mobilePhone": "手机",
+    "tablet": "平板",
+    "downloadDescription": "从对话到行动，在一个工作空间完成聊天、笔记、草图与 AI。"
+  }
 }
