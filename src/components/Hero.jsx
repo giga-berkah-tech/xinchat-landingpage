@@ -257,7 +257,7 @@ const Hero = () => {
             </p>
             <div className="mt-8 flex flex-wrap gap-x-6 gap-y-4">
               <a
-                href="https://testflight.apple.com/join/F2PxchFb"
+                href="https://testflight.apple.com/join/wHEZ9hYz"
                 target="_blank"
                 rel='noreferrer'
               >

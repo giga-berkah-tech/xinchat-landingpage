@@ -18,7 +18,7 @@ const Layout = ({ children }) => {
         <title>XinChat - Connect important information.</title>
         <meta
           name="description"
-          content="By leveraging insights from our network of industry insiders, you’ll know exactly when to buy to maximize profit, and exactly when to sell to avoid painful losses."
+          content="Our platform enables seamless connections and efficient communication within your organization, allowing teams to share important information effortlessly and boost productivity. Every interaction is streamlined and purposeful, empowering teams to collaborate in a more fluid and effective way."
         />
       </Head>
       <Header />

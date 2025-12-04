@@ -133,7 +133,7 @@ const DownloadSection = () => {
               />
               <button>
                 <a
-                  href="https://testflight.apple.com/join/F2PxchFb"
+                  href="https://testflight.apple.com/join/wHEZ9hYz"
                   target="_blank"
                   rel='noreferrer'
                 >
