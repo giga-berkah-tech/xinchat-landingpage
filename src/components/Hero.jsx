@@ -275,11 +275,12 @@ const Hero = () => {
                   href="https://dev.tikgetchat.com"
                   className="flex items-center space-x-3"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <svg
                     viewBox="0 0 64 64"
                     xmlns="http://www.w3.org/2000/svg"
-                    stroke-width="3"
+                    strokeWidth="3"
                     stroke="#fff"
                     fill="none"
                     className="h-5 w-5 text-white"
