@@ -272,7 +272,7 @@ const Hero = () => {
               </a>
               <button className="rounded-md bg-gray-900 px-4 py-2">
                 <a
-                  href="https://dev.tikgetchat.com"
+                  href="https://dev.pgyfang.com"
                   className="flex items-center space-x-3"
                   target="_blank"
                   rel="noreferrer"
