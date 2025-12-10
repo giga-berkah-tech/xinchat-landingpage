@@ -1,269 +1,270 @@
 {
-    "welcome": "Welcome to our site!",
-    "about": "About us",
-    "hero": {
-        "title": "Connect important information",
-        "description": "Our platform enables seamless connections and efficient communication within your organization, allowing teams to share important information effortlessly and boost productivity. Every interaction is streamlined and purposeful, empowering teams to collaborate in a more fluid and effective way."
+  "welcome": "Welcome to our site!",
+  "about": "About us",
+  "hero": {
+    "title": "Connect important information",
+    "description": "Our platform enables seamless connections and efficient communication within your organization, allowing teams to share important information effortlessly and boost productivity. Every interaction is streamlined and purposeful, empowering teams to collaborate in a more fluid and effective way."
+  },
+  "Features": "Features",
+  "Download": "Download",
+  "Term of Service": "Term of Service",
+  "Privacy Policy": "Privacy Policy",
+  "Contact": "Contact",
+  "Join Our Team": "Join Our Team",
+  "Pricing & Plans": "Pricing & Plans",
+  "primaryFeatures": {
+    "title": "Every feature you need to win. Try it for yourself.",
+    "description": "XinChat was created for organizations that prioritize seamless, secure communication within their teams. Unlike other messaging platforms, XinChat leads the way with innovative features designed to enhance internal collaboration, streamline communication, and protect privacy.",
+    "Register": {
+      "title": "Register",
+      "description": "Sign up quickly to set up your account and start collaborating with your team, ensuring smooth and secure communication right from the start."
     },
-    "Features": "Features",
-    "Download": "Download",
-    "Term of Service": "Term of Service",
-    "Privacy Policy": "Privacy Policy",
-    "Contact": "Contact",
-    "Join Our Team": "Join Our Team",
-    "Pricing & Plans": "Pricing & Plans",
-    "primaryFeatures": {
-        "title": "Every feature you need to win. Try it for yourself.",
-        "description": "XinChat was created for organizations that prioritize seamless, secure communication within their teams. Unlike other messaging platforms, XinChat leads the way with innovative features designed to enhance internal collaboration, streamline communication, and protect privacy.",
-        "Register": {
-            "title": "Register",
-            "description": "Sign up quickly to set up your account and start collaborating with your team, ensuring smooth and secure communication right from the start."
-        },
-        "Contact": {
-            "title": "Contact",
-            "description": "Stay connected with your team and colleagues, reaching out effortlessly for collaboration, support, or feedback."
-        },
-        "Profile": {
-            "title": "Profile",
-            "description": "Customize your profile and update your details to make XinChat work for you and your team, creating a personalized and efficient communication experience."
-        }
+    "Contact": {
+      "title": "Contact",
+      "description": "Stay connected with your team and colleagues, reaching out effortlessly for collaboration, support, or feedback."
     },
-    "terms": {
-        "title": "Terms and Conditions",
-        "date": "Effective Date: December, 16 2024",
-        "welcome": "Welcome to Xinchat",
-        "description": "Thank you for choosing Xinchat! By downloading, accessing, or using our mobile application (\"App\"), you agree to comply with these Terms and Conditions (\"Terms\"). If you do not agree with any of these Terms, please refrain from using the App.",
-        "end": "By using Xinchat, you acknowledge that you have read, understood, and agreed to these Terms.",
-        "Use of the Application": {
-            "title": "Use of the Application",
-            "description": "Xinchat is provided on an \"as-is\" and \"as-available\" basis. We reserve the right to modify, suspend, or discontinue any part of the App at any time without prior notice. You agree to use the App only for lawful purposes and in compliance with all applicable laws and regulations."
-        },
-        "User Accounts": {
-            "title": "User Accounts",
-            "description": "While using Xinchat, you agree not to:",
-            "bullet1": "To access certain features of the App, you may be required to create an account.",
-            "bullet2": "You are responsible for maintaining the confidentiality of your account credentials and are solely responsible for all activities that occur under your account.",
-            "bullet3": "You agree not to share your account details or use another user’s account without permission.",
-            "bullet4": "If you suspect any unauthorized use of your account, you must notify us immediately."
-        },
-        "Prohibited Conduct": {
-            "title": "Prohibited Conduct",
-            "description": "While using Xinchat, you agree not to:",
-            "bullet1": "Engage in any illegal or unauthorized activity.",
-            "bullet2": "Upload or share harmful, abusive, or objectionable content, including but not limited to hate speech or explicit materials.",
-            "bullet3": "Use Xinchat to spam or harass other users.",
-            "bullet4": "Attempt to hack, disrupt, or interfere with the app's functionality.",
-            "bullet5": "Collect or store personal data of other users without authorization.",
-            "bullet6": "Impersonate any person or entity or misrepresent your affiliation with any individual or organization.",
-            "description2": "Violating these terms may result in the suspension or termination of your account and possible legal action."
-        },
-        "Intellectual Property": {
-            "title": "Intellectual Property",
-            "description": "All content, logos, and intellectual property in Xinchat are owned by us or our licensors. You are not permitted to copy, modify, or reuse any materials without explicit permission.",
-            "bullet1": "Engage in any illegal or unauthorized activity.",
-            "bullet2": "Upload or share harmful, abusive, or objectionable content, including but not limited to hate speech or explicit materials."
-        },
-        "Privacy Policy": {
-            "title": "Privacy Policy",
-            "description": "Your privacy is important to us. Please review our <a class='link' href='/privacy-policy'>Privacy Policy</a> to understand how we collect, use, and protect your personal data. By using Xinchat, you consent to our data practices as described in the Privacy Policy."
-        },
-        "Limitation of Liability": {
-            "title": "Limitation of Liability",
-            "description": "To the maximum extent permitted by law:",
-            "bullet1": "Xinchat and its affiliates are not responsible for any indirect, incidental, consequential, or punitive damages arising from your use of the App.",
-            "bullet2": "We do not guarantee that the App will be errorfree, uninterrupted, or secure.",
-            "bullet3": "We are not liable for any loss of data, damages caused by malware, unauthorized access, or other issues beyond our reasonable control."
-        },
-        "Termination": {
-            "title": "Termination",
-            "description": "We reserve the right to:",
-            "bullet1": "Suspend or terminate your access to the App at any time, with or without notice, if you violate these Terms or engage in prohibited behavior.",
-            "bullet2": "Remove or disable content that violates these Terms or applicable laws."
-        },
-        "Changes to Terms": {
-            "title": "Changes to Terms",
-            "description": "We may update these Terms from time to time. Any changes will be effective immediately upon posting the revised Terms within the App. Your continued use of the App after changes are made indicates your acceptance of the updated Terms."
-        },
-        "Governing Law": {
-            "title": "Governing Law & Dispute Resolution",
-            "bullet1": "These Terms are governed by the laws of the Philippines.",
-            "bullet2": "Any disputes arising from the use of Xinchat will be resolved in the courts of the Philippines."
-        },
-        "Contact Us": {
-            "title": "Contact Us",
-            "description": "If you have questions or concerns about these Terms, please contact us at <a class='link' href='mailto:cs@aplikasiku.web.id'>cs@aplikasiku.web.id</a>"
-        }
-    },
-    "privacy": {
-        "title": "Privacy Policy",
-        "date": "Effective Date: December, 16 2024",
-        "description": "Thank you for choosing XinChat, a mobile application designed to provide communication and chatting services. Protecting your privacy is important to us. This Privacy Policy outlines how XinChat we collects, uses, stores, and protects your personal information.",
-        "end": "By using Xinchat, you acknowledge that you have read, understood, and agreed to these Terms.",
-        "Information We Collect": {
-            "title": "Information We Collect",
-            "description": "We collect personal data to provide and improve our services. The information collected includes:",
-            "bullet1": "<b>Personal Information:</b> Collected during registration, such as name, email address, and other details you provide.",
-            "bullet2": "<b>Usage Data:</b> Information about how you interact with the application."
-        },
-        "How We Use Your Information": {
-            "title": "How We Use Your Information",
-            "description": "We use the collected information for the following purposes:",
-            "bullet1": "<b>Account Registration:</b> To create and manage your user account.",
-            "bullet2": "<b>Service Improvement:</b> To enhance the performance, security, and functionality of our services.",
-            "bullet3": "<b>Customer Support:</b> To respond to inquiries and provide assistance.",
-            "bullet4": "<b>Security and Fraud Prevention:</b> To protect against unauthorized access, misuse, or illegal activity."
-        },
-        "Data Storage and Security": {
-            "title": "Data Storage and Security",
-            "bullet1": "We store your personal information securely in our database. We implement reasonable security measures to protect your information from unauthorized access, alteration, or destruction.",
-            "bullet2": "While we strive to use commercially acceptable means to protect your data, no method of transmission over the internet or electronic storage is 100% secure. Therefore, we cannot guarantee its absolute security."
-        },
-        "Third-Party Services": {
-            "title": "Third-Party Services",
-            "description": "We use third-party services to improve our features. Specifically:",
-            "bullet1": "<b>ChatGPT API:</b> To enhance the user experience with AI-powered features.",
-            "note": "We do not share your personal data with third-party companies for marketing or unrelated purposes."
-        },
-        "Your Rights": {
-            "title": "Your Rights",
-            "description": "As a user, you have the following rights:",
-            "bullet1": "<b>Access Your Data:</b> You can request access to the data we collect about you.",
-            "bullet2": "<b>Update Your Data:</b> You can request corrections to your personal information.",
-            "bullet3": "<b>Delete Your Data:</b> You can request the deletion of your personal information from our systems.",
-            "note": "To exercise these rights, contact us at <a class='link' href='mailto:cs@aplikasiku.web.id'>cs@aplikasiku.web.id</a>"
-        },
-        "Data Retention": {
-            "title": "Data Retention",
-            "description": "We retain your personal information only as long as necessary to provide our services, comply with legal obligations, or resolve disputes."
-        },
-        "Changes to This Privacy Policy": {
-            "title": "Changes to This Privacy Policy",
-            "description": "We reserve the right to modify this Privacy Policy at any time. Your continued use of the app after any changes indicates your acceptance of the updated Privacy Policy.",
-            "note": "You are encouraged to review this Privacy Policy periodically for any updates."
-        },
-        "Contact Us": {
-            "title": "Contact Us",
-            "description": "If you have questions or concerns regarding this Privacy Policy, please contact us: Email: <a class='link' href='mailto:cs@aplikasiku.web.id'>cs@aplikasiku.web.id</a>"
-        }
-    },
-    "contact": {
-        "title": "Contact Us",
-        "description": "Email, call, or complete the form to learn how Xinchat can solve your messaging problem.",
-        "box1": {
-            "title": "Customer Support",
-            "description": "Our support team is available around the clock to address any concerns or queries you may have."
-        },
-        "box2": {
-            "title": "Feedback and Suggestions",
-            "description": "We value your feedback and are continuously working to improve. Your input is crucial in shaping the future of our service."
-        },
-        "form": {
-            "title": "Get in Touch",
-            "name": "Name",
-            "email": "Email",
-            "message": "Message",
-            "submit": "Submit Form"
-        },
-        "address": {
-            "title": "Our Location",
-            "description": "10F, West Wing, The Rise, Makati, Makati, Metro Manila 1203, Philippines"
-        }
-    },
-    "Download the app": "Download the app",
-    "Scan the QR code to download the app from the App Store": "Scan the QR code to download the app from the App Store.",
-    "Join our newsletter": "Join our newsletter",
-    "Join newsletter": "Join newsletter",
-    "Copyright": "Copyright",
-    "All rights reserved": "All rights reserved.",
-    "Email address": "Email address",
-    "recruitment": {
-        "title": "Be Part of Our Journey",
-        "sendResume": "Apply via Email",
-        "description": "Passionate about transforming communication? Join XinChat and help us shape the future of messaging. We’re looking for innovative individuals to drive seamless chatting experiences.",
-        "teamDescription": "At XinChat, we foster collaboration and innovation, where every voice matters. Together, we’ll break communication barriers and build a global community.",
-        "benefits": {
-            "title": "Why Join Us?",
-            "description": "We offer a dynamic and inclusive environment where you can thrive. Here are some of the benefits you’ll enjoy.",
-            "item1": "Competitive salary",
-            "item2": "Health insurance",
-            "item3": "Career development opportunities"
-        },
-        "jobs": {
-            "title": "Job Openings",
-            "job1": {
-                "title": "Software Engineer",
-                "description": "Join our engineering team to build cutting-edge software solutions."
-            },
-            "job2": {
-                "title": "Product Manager",
-                "description": "Help shape the future of our products with user-centric design."
-            },
-            "job3": {
-                "title": "UI/UX Designer",
-                "description": "Design engaging user interfaces and enhance user experiences."
-            },
-            "job4": {
-                "title": "Marketing Specialist",
-                "description": "Develop strategies to boost our brand presence and engagement."
-            },
-            "job5": {
-                "title": "Customer Support Representative",
-                "description": "Provide exceptional support to our clients through various channels."
-            }
-        }
-    },
-    "pricing": {
-        "title": "Select Your Plan and Contact Support to Begin Your Trial",
-        "description": "Find the perfect plan for your business with our flexible pricing options.",
-        "featuresTitle": "Features Included",
-        "features": {
-            "item1": "Unlimited Messages",
-            "item1Description": "Send as many messages as you need with no limits.",
-            "item2": "Advanced Encryption",
-            "item2Description": "Ensure your chats are completely secure with end-to-end encryption.",
-            "item3": "Cross-Platform Support",
-            "item3Description": "Access the chat app from any device, anytime."
-        },
-        "plans": {
-            "title": "Pricing Plans",
-            "free": {
-                "title": "Free Plan",
-                "description": "Perfect for individuals or small teams.",
-                "price": "$0/month",
-                "button": "Get Started"
-            },
-            "basic": {
-                "title": "Basic Plan",
-                "description": "Ideal for small businesses.",
-                "price": "$2/month",
-                "button": "Start Now"
-            },
-            "pro": {
-                "title": "Pro Plan",
-                "description": "For growing businesses with advanced features.",
-                "price": "$10/month",
-                "button": "Try Pro"
-            },
-            "enterprise": {
-                "title": "Enterprise Plan",
-                "description": "Custom solutions for large organizations.",
-                "price": "Contact Us",
-                "button": "Request Quote"
-            }
-        },
-        "customPricing": "Interested in our services? Contact our team."
-    },
-    "download": {
-        "title": "Transform Your Communication",
-        "subtitle": "with Instant Connectivity",
-        "description": "Install XinChat on all your devices to stay engaged and continue every <br/> conversations.",
-        "button": "Download Now",
-        "pc/mac": "PC/Mac",
-        "dekstop": "Desktop",
-        "android": "Android",
-        "ios": "iOS",
-        "mobilePhone": "Mobile Phone",
-        "tablet": "Tablet",
-        "downloadDescription": "Stay ahead with quick, adaptable communication <br/> strategies for evolving business landscape"
+    "Profile": {
+      "title": "Profile",
+      "description": "Customize your profile and update your details to make XinChat work for you and your team, creating a personalized and efficient communication experience."
     }
+  },
+  "terms": {
+    "title": "Terms and Conditions",
+    "date": "Effective Date: December, 16 2024",
+    "welcome": "Welcome to Xinchat",
+    "description": "Thank you for choosing Xinchat! By downloading, accessing, or using our mobile application (\"App\"), you agree to comply with these Terms and Conditions (\"Terms\"). If you do not agree with any of these Terms, please refrain from using the App.",
+    "end": "By using Xinchat, you acknowledge that you have read, understood, and agreed to these Terms.",
+    "Use of the Application": {
+      "title": "Use of the Application",
+      "description": "Xinchat is provided on an \"as-is\" and \"as-available\" basis. We reserve the right to modify, suspend, or discontinue any part of the App at any time without prior notice. You agree to use the App only for lawful purposes and in compliance with all applicable laws and regulations."
+    },
+    "User Accounts": {
+      "title": "User Accounts",
+      "description": "While using Xinchat, you agree not to:",
+      "bullet1": "To access certain features of the App, you may be required to create an account.",
+      "bullet2": "You are responsible for maintaining the confidentiality of your account credentials and are solely responsible for all activities that occur under your account.",
+      "bullet3": "You agree not to share your account details or use another user’s account without permission.",
+      "bullet4": "If you suspect any unauthorized use of your account, you must notify us immediately."
+    },
+    "Prohibited Conduct": {
+      "title": "Prohibited Conduct",
+      "description": "While using Xinchat, you agree not to:",
+      "bullet1": "Engage in any illegal or unauthorized activity.",
+      "bullet2": "Upload or share harmful, abusive, or objectionable content, including but not limited to hate speech or explicit materials.",
+      "bullet3": "Use Xinchat to spam or harass other users.",
+      "bullet4": "Attempt to hack, disrupt, or interfere with the app's functionality.",
+      "bullet5": "Collect or store personal data of other users without authorization.",
+      "bullet6": "Impersonate any person or entity or misrepresent your affiliation with any individual or organization.",
+      "description2": "Violating these terms may result in the suspension or termination of your account and possible legal action."
+    },
+    "Intellectual Property": {
+      "title": "Intellectual Property",
+      "description": "All content, logos, and intellectual property in Xinchat are owned by us or our licensors. You are not permitted to copy, modify, or reuse any materials without explicit permission.",
+      "bullet1": "Engage in any illegal or unauthorized activity.",
+      "bullet2": "Upload or share harmful, abusive, or objectionable content, including but not limited to hate speech or explicit materials."
+    },
+    "Privacy Policy": {
+      "title": "Privacy Policy",
+      "description": "Your privacy is important to us. Please review our <a class='link' href='/privacy-policy'>Privacy Policy</a> to understand how we collect, use, and protect your personal data. By using Xinchat, you consent to our data practices as described in the Privacy Policy."
+    },
+    "Limitation of Liability": {
+      "title": "Limitation of Liability",
+      "description": "To the maximum extent permitted by law:",
+      "bullet1": "Xinchat and its affiliates are not responsible for any indirect, incidental, consequential, or punitive damages arising from your use of the App.",
+      "bullet2": "We do not guarantee that the App will be errorfree, uninterrupted, or secure.",
+      "bullet3": "We are not liable for any loss of data, damages caused by malware, unauthorized access, or other issues beyond our reasonable control."
+    },
+    "Termination": {
+      "title": "Termination",
+      "description": "We reserve the right to:",
+      "bullet1": "Suspend or terminate your access to the App at any time, with or without notice, if you violate these Terms or engage in prohibited behavior.",
+      "bullet2": "Remove or disable content that violates these Terms or applicable laws."
+    },
+    "Changes to Terms": {
+      "title": "Changes to Terms",
+      "description": "We may update these Terms from time to time. Any changes will be effective immediately upon posting the revised Terms within the App. Your continued use of the App after changes are made indicates your acceptance of the updated Terms."
+    },
+    "Governing Law": {
+      "title": "Governing Law & Dispute Resolution",
+      "bullet1": "These Terms are governed by the laws of the Philippines.",
+      "bullet2": "Any disputes arising from the use of Xinchat will be resolved in the courts of the Philippines."
+    },
+    "Contact Us": {
+      "title": "Contact Us",
+      "description": "If you have questions or concerns about these Terms, please contact us at <a class='link' href='mailto:cs@aplikasiku.web.id'>cs@aplikasiku.web.id</a>"
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "date": "Effective Date: December, 16 2024",
+    "description": "Thank you for choosing XinChat, a mobile application designed to provide communication and chatting services. Protecting your privacy is important to us. This Privacy Policy outlines how XinChat we collects, uses, stores, and protects your personal information.",
+    "end": "By using Xinchat, you acknowledge that you have read, understood, and agreed to these Terms.",
+    "Information We Collect": {
+      "title": "Information We Collect",
+      "description": "We collect personal data to provide and improve our services. The information collected includes:",
+      "bullet1": "<b>Personal Information:</b> Collected during registration, such as name, email address, and other details you provide.",
+      "bullet2": "<b>Usage Data:</b> Information about how you interact with the application."
+    },
+    "How We Use Your Information": {
+      "title": "How We Use Your Information",
+      "description": "We use the collected information for the following purposes:",
+      "bullet1": "<b>Account Registration:</b> To create and manage your user account.",
+      "bullet2": "<b>Service Improvement:</b> To enhance the performance, security, and functionality of our services.",
+      "bullet3": "<b>Customer Support:</b> To respond to inquiries and provide assistance.",
+      "bullet4": "<b>Security and Fraud Prevention:</b> To protect against unauthorized access, misuse, or illegal activity."
+    },
+    "Data Storage and Security": {
+      "title": "Data Storage and Security",
+      "bullet1": "We store your personal information securely in our database. We implement reasonable security measures to protect your information from unauthorized access, alteration, or destruction.",
+      "bullet2": "While we strive to use commercially acceptable means to protect your data, no method of transmission over the internet or electronic storage is 100% secure. Therefore, we cannot guarantee its absolute security."
+    },
+    "Third-Party Services": {
+      "title": "Third-Party Services",
+      "description": "We use third-party services to improve our features. Specifically:",
+      "bullet1": "<b>ChatGPT API:</b> To enhance the user experience with AI-powered features.",
+      "note": "We do not share your personal data with third-party companies for marketing or unrelated purposes."
+    },
+    "Your Rights": {
+      "title": "Your Rights",
+      "description": "As a user, you have the following rights:",
+      "bullet1": "<b>Access Your Data:</b> You can request access to the data we collect about you.",
+      "bullet2": "<b>Update Your Data:</b> You can request corrections to your personal information.",
+      "bullet3": "<b>Delete Your Data:</b> You can request the deletion of your personal information from our systems.",
+      "note": "To exercise these rights, contact us at <a class='link' href='mailto:cs@aplikasiku.web.id'>cs@aplikasiku.web.id</a>"
+    },
+    "Data Retention": {
+      "title": "Data Retention",
+      "description": "We retain your personal information only as long as necessary to provide our services, comply with legal obligations, or resolve disputes."
+    },
+    "Changes to This Privacy Policy": {
+      "title": "Changes to This Privacy Policy",
+      "description": "We reserve the right to modify this Privacy Policy at any time. Your continued use of the app after any changes indicates your acceptance of the updated Privacy Policy.",
+      "note": "You are encouraged to review this Privacy Policy periodically for any updates."
+    },
+    "Contact Us": {
+      "title": "Contact Us",
+      "description": "If you have questions or concerns regarding this Privacy Policy, please contact us: Email: <a class='link' href='mailto:cs@aplikasiku.web.id'>cs@aplikasiku.web.id</a>"
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "Email, call, or complete the form to learn how Xinchat can solve your messaging problem.",
+    "box1": {
+      "title": "Customer Support",
+      "description": "Our support team is available around the clock to address any concerns or queries you may have."
+    },
+    "box2": {
+      "title": "Feedback and Suggestions",
+      "description": "We value your feedback and are continuously working to improve. Your input is crucial in shaping the future of our service."
+    },
+    "form": {
+      "title": "Get in Touch",
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Submit Form"
+    },
+    "address": {
+      "title": "Our Location",
+      "description": "10F, West Wing, The Rise, Makati, Makati, Metro Manila 1203, Philippines"
+    }
+  },
+  "Download the app": "Download the app",
+  "Scan the QR code to download the app from the App Store": "Scan the QR code to download the app from the App Store.",
+  "Join our newsletter": "Join our newsletter",
+  "Join newsletter": "Join newsletter",
+  "Copyright": "Copyright",
+  "All rights reserved": "All rights reserved.",
+  "Email address": "Email address",
+  "recruitment": {
+    "title": "Be Part of Our Journey",
+    "sendResume": "Apply via Email",
+    "description": "Passionate about transforming communication? Join XinChat and help us shape the future of messaging. We’re looking for innovative individuals to drive seamless chatting experiences.",
+    "teamDescription": "At XinChat, we foster collaboration and innovation, where every voice matters. Together, we’ll break communication barriers and build a global community.",
+    "benefits": {
+      "title": "Why Join Us?",
+      "description": "We offer a dynamic and inclusive environment where you can thrive. Here are some of the benefits you’ll enjoy.",
+      "item1": "Competitive salary",
+      "item2": "Health insurance",
+      "item3": "Career development opportunities"
+    },
+    "jobs": {
+      "title": "Job Openings",
+      "job1": {
+        "title": "Software Engineer",
+        "description": "Join our engineering team to build cutting-edge software solutions."
+      },
+      "job2": {
+        "title": "Product Manager",
+        "description": "Help shape the future of our products with user-centric design."
+      },
+      "job3": {
+        "title": "UI/UX Designer",
+        "description": "Design engaging user interfaces and enhance user experiences."
+      },
+      "job4": {
+        "title": "Marketing Specialist",
+        "description": "Develop strategies to boost our brand presence and engagement."
+      },
+      "job5": {
+        "title": "Customer Support Representative",
+        "description": "Provide exceptional support to our clients through various channels."
+      }
+    }
+  },
+  "pricing": {
+    "title": "Select Your Plan and Contact Support to Begin Your Trial",
+    "description": "Find the perfect plan for your business with our flexible pricing options.",
+    "featuresTitle": "Features Included",
+    "features": {
+      "item1": "Unlimited Messages",
+      "item1Description": "Send as many messages as you need with no limits.",
+      "item2": "Advanced Encryption",
+      "item2Description": "Ensure your chats are completely secure with end-to-end encryption.",
+      "item3": "Cross-Platform Support",
+      "item3Description": "Access the chat app from any device, anytime."
+    },
+    "plans": {
+      "title": "Pricing Plans",
+      "free": {
+        "title": "Free Plan",
+        "description": "Perfect for individuals or small teams.",
+        "price": "$0/month",
+        "button": "Get Started"
+      },
+      "basic": {
+        "title": "Basic Plan",
+        "description": "Ideal for small businesses.",
+        "price": "$2/month",
+        "button": "Start Now"
+      },
+      "pro": {
+        "title": "Pro Plan",
+        "description": "For growing businesses with advanced features.",
+        "price": "$10/month",
+        "button": "Try Pro"
+      },
+      "enterprise": {
+        "title": "Enterprise Plan",
+        "description": "Custom solutions for large organizations.",
+        "price": "Contact Us",
+        "button": "Request Quote"
+      }
+    },
+    "customPricing": "Interested in our services? Contact our team."
+  },
+  "download": {
+    "title": "Transform Your Communication",
+    "subtitle": "with Instant Connectivity",
+    "description": "Install XinChat on all your devices to stay engaged and continue every <br/> conversations.",
+    "button": "Download Now",
+    "pc/mac": "PC/Mac",
+    "dekstop": "Desktop",
+    "android": "Android",
+    "ios": "iOS",
+    "mobilePhone": "Mobile Phone",
+    "tablet": "Tablet",
+    "downloadDescription": "Stay ahead with quick, adaptable communication <br/> strategies for evolving business landscape"
+  },
+  "web": "Open Web Version"
 }
