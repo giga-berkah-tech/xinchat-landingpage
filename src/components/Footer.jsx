@@ -1,4 +1,3 @@
-
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { TextField } from '@/components/Fields'
@@ -7,7 +6,7 @@ import { NavLinks } from '@/components/NavLinks'
 import qrCode from '@/images/qr-code.svg'
 import { useTranslation } from 'next-export-i18n'
 import Image from 'next/image'
-
+import { version } from 'package.json'
 function QrCodeBorder(props) {
   return (
     <svg viewBox="0 0 96 96" fill="none" aria-hidden="true" {...props}>
@@ -27,7 +26,7 @@ const Footer = () => {
     <footer className="border-t border-gray-200">
       <Container>
         <div className="flex flex-col items-start justify-between gap-y-12 pt-16 pb-6 lg:flex-row lg:items-center lg:py-16">
-          <div className='hidden md:block'>
+          <div className="hidden md:block">
             <div className="flex items-center text-gray-900">
               <Logomark className="h-10 w-10 flex-none fill-cyan-500" />
               <div className="ml-4">
@@ -76,12 +75,16 @@ const Footer = () => {
           </form>
           <div className="mt-6 text-sm text-gray-500 md:mt-0">
             <p>
-              &copy; {t('Copyright')} {new Date().getFullYear()}. {t('All rights reserved')}
+              &copy; {t('Copyright')} {new Date().getFullYear()}.{' '}
+              {t('All rights reserved')} {version}
             </p>
             <p className="mt-2">
               {t('Need help? Reach out to us at ')}
-              <a href="mailto:cs@aplikasiku.web.id" className="text-cyan-500 hover:underline">
-              cs@aplikasiku.web.id
+              <a
+                href="mailto:xinchat@aplikasiku.web.id"
+                className="text-cyan-500 hover:underline"
+              >
+                xinchat@aplikasiku.web.id
               </a>
             </p>
           </div>

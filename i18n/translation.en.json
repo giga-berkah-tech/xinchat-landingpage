@@ -91,7 +91,7 @@
     },
     "Contact Us": {
       "title": "Contact Us",
-      "description": "If you have questions or concerns about these Terms, please contact us at <a class='link' href='mailto:cs@aplikasiku.web.id'>cs@aplikasiku.web.id</a>"
+      "description": "If you have questions or concerns about these Terms, please contact us at <a class='link' href='mailto:xinchat@aplikasiku.web.id'>xinchat@aplikasiku.web.id</a>"
     }
   },
   "privacy": {
@@ -130,7 +130,7 @@
       "bullet1": "<b>Access Your Data:</b> You can request access to the data we collect about you.",
       "bullet2": "<b>Update Your Data:</b> You can request corrections to your personal information.",
       "bullet3": "<b>Delete Your Data:</b> You can request the deletion of your personal information from our systems.",
-      "note": "To exercise these rights, contact us at <a class='link' href='mailto:cs@aplikasiku.web.id'>cs@aplikasiku.web.id</a>"
+      "note": "To exercise these rights, contact us at <a class='link' href='mailto:xinchat@aplikasiku.web.id'>xinchat@aplikasiku.web.id</a>"
     },
     "Data Retention": {
       "title": "Data Retention",
@@ -143,7 +143,7 @@
     },
     "Contact Us": {
       "title": "Contact Us",
-      "description": "If you have questions or concerns regarding this Privacy Policy, please contact us: Email: <a class='link' href='mailto:cs@aplikasiku.web.id'>cs@aplikasiku.web.id</a>"
+      "description": "If you have questions or concerns regarding this Privacy Policy, please contact us: Email: <a class='link' href='mailto:xinchat@aplikasiku.web.id'>xinchat@aplikasiku.web.id</a>"
     }
   },
   "contact": {
@@ -165,8 +165,7 @@
       "submit": "Submit Form"
     },
     "address": {
-      "title": "Our Location",
-      "description": "10F, West Wing, The Rise, Makati, Makati, Metro Manila 1203, Philippines"
+      "title": "Our Location"
     }
   },
   "Download the app": "Download the app",

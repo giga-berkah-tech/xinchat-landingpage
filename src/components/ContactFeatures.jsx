@@ -8,8 +8,7 @@ const ContactFeatures = () => {
   const { t } = useTranslation()
 
   const isAplikasikuDomain =
-      window.location.hostname === 'xinchat.aplikasiku.web.id'
-
+    window.location.hostname === 'xinchat.aplikasiku.web.id'
 
   const onSubmit = async (event) => {
     event.preventDefault()
@@ -46,13 +45,8 @@ const ContactFeatures = () => {
           </h1>
 
           <div className="flex w-full max-w-full flex-col space-y-4 md:max-w-sm">
-            <p>
-              {isAplikasikuDomain
-                ? 'Perumahan A. Yani Inside Kav 14 Ikan Piranha, Purwodadi, Blimbing, Blimbing, Malang, Jawa Timur, 65125'
-                : t('contact.address.description')}
-            </p>
-            <p>cs@aplikasiku.web.id</p>
-            <p>+6287712622018</p>
+            <p>xinchat@aplikasiku.web.id</p>
+            <p>+62882009019753</p>
           </div>
         </div>
 
@@ -62,8 +56,11 @@ const ContactFeatures = () => {
           </h1>
 
           <div className="flex w-full max-w-full flex-col space-y-4 md:max-w-sm">
-            <p>{t('contact.address.description')}</p>
-            {/* <p>cs@aplikasiku.web.id</p>
+            <p>
+              Perumahan A. Yani Inside Kav 14 Ikan Piranha, Purwodadi, Blimbing,
+              Blimbing, Malang
+            </p>
+            {/* <p>xinchat@aplikasiku.web.id</p>
             <p>+6287712622018</p> */}
           </div>
         </div>
