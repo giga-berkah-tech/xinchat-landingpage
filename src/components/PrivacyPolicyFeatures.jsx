@@ -44,7 +44,7 @@ const terms = [
       '<b>Update Your Data:</b> You can request corrections to your personal information.',
       '<b>Delete Your Data:</b> You can request the deletion of your personal information from our systems.',
     ],
-    note: "To exercise these rights, contact us at <a class='link' href='mailto:cs@aplikasiku.web.id'>cs@aplikasiku.web.id</a>",
+    note: "To exercise these rights, contact us at <a class='link' href='mailto:xinwork@app.indonesiandev.com'>xinwork@app.indonesiandev.com</a>",
   },
   {
     title: 'Data Retention',
@@ -57,7 +57,7 @@ const terms = [
   },
   {
     title: 'Contact Us',
-    desc: "If you have questions or concerns regarding this Privacy Policy, please contact us: Email: <a class='link' href='mailto:cs@aplikasiku.web.id'>cs@aplikasiku.web.id</a>",
+    desc: "If you have questions or concerns regarding this Privacy Policy, please contact us: Email: <a class='link' href='mailto:xinwork@app.indonesiandev.com'>xinwork@app.indonesiandev.com</a>",
   },
 ]
 
@@ -78,7 +78,9 @@ const PrivacyPolicyFeatures = () => {
           </h2>
           <p
             dangerouslySetInnerHTML={{
-              __html: term.desc ? t('privacy.' + term.title + '.description') : null,
+              __html: term.desc
+                ? t('privacy.' + term.title + '.description')
+                : null,
             }}
           />
           <ul className="ml-4 list-outside list-disc space-y-4">

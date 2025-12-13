@@ -274,7 +274,7 @@ const Hero = () => {
               >
                 <AppStoreLink />
                 <p className="mt-2 w-full text-center text-sm text-gray-500">
-                  Comming Soon
+                  Coming Soon
                 </p>
               </div>
 

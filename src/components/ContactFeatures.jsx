@@ -10,7 +10,6 @@ const ContactFeatures = () => {
   const isAplikasikuDomain =
     window.location.hostname === 'xinchat.aplikasiku.web.id'
 
-
   const onSubmit = async (event) => {
     event.preventDefault()
     setResult('Sending....')
@@ -46,8 +45,8 @@ const ContactFeatures = () => {
           </h1>
 
           <div className="flex w-full max-w-full flex-col space-y-4 md:max-w-sm">
-            <p>cs@aplikasiku.web.id</p>
-            <p>+639453380162</p>
+            <p>xinwork@app.indonesiandev.com</p>
+            <p>+62882009019753</p>
           </div>
         </div>
 
