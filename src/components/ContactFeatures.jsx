@@ -15,7 +15,7 @@ const ContactFeatures = () => {
     setResult('Sending....')
     const formData = new FormData(event.target)
 
-    formData.append('access_key', 'fdc673c5-6d78-4a6a-ac2e-d7f4f2b27541')
+    formData.append('access_key', '31ddd825-6ef3-4a15-9de4-ff22effbc789')
 
     const response = await fetch('https://api.web3forms.com/submit', {
       method: 'POST',
@@ -46,7 +46,7 @@ const ContactFeatures = () => {
 
           <div className="flex w-full max-w-full flex-col space-y-4 md:max-w-sm">
             <p>xinwork@app.indonesiandev.com</p>
-            <p>+62882009019753</p>
+            <p>+6285123724368</p>
           </div>
         </div>
 

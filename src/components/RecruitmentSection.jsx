@@ -16,7 +16,7 @@ const Recruitment = () => {
           <div className="flex w-full max-w-full flex-col space-y-4 md:max-w-sm">
             <p>{t('recruitment.description')}</p>
             <p>{t('recruitment.teamDescription')}</p>
-            <p>+62882009019753</p>
+            <p>+6285123724368</p>
           </div>
         </div>
 
@@ -99,10 +99,10 @@ const Recruitment = () => {
           <p className="text-lg text-gray-700">
             {t('recruitment.sendResume')} <br />
             <a
-              href="mailto:support@xinchatsupport.com"
+              href="mailto:xinwork@app.indonesiandev.com"
               className="text-indigo-600 hover:text-indigo-700"
             >
-              support@xinchatsupport.com
+              xinwork@app.indonesiandev.com
             </a>
           </p>
         </div>
