@@ -1,5 +1,4 @@
-import Link from "next/link";
-
+import { GroupButton } from "./GroupButton";
 const Hero = () => {
   return (
     <>
@@ -23,13 +22,7 @@ const Hero = () => {
                   productivity
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4">
-                  <Link
-                    href="https://lc106chat.tikgetchat.com"
-                    target="_blank"
-                    className="inline-block rounded-xs bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5"
-                  >
-                    Open Website Version
-                  </Link>
+                  <GroupButton />
                 </div>
               </div>
             </div>
