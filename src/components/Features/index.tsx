@@ -9,7 +9,7 @@ const Features = () => {
         <div className="container">
           <SectionTitle
             title="Main Features"
-            paragraph="XinChat is built for organizations that value seamless and secure internal communication. It offers advanced features that enhance team collaboration, streamline daily interactions, and ensure strong privacy protection setting it apart from traditional messaging platforms."
+            paragraph="No more juggling five apps at once. With XinLeo, freelancers and creators get one simple place to chat, plan, and capture ideas all without leaving the conversation."
             center
           />
 

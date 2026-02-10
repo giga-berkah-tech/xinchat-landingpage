@@ -29,7 +29,7 @@ const AboutSectionOne = () => {
               <SectionTitle
                 title="Enhance Your Communication
 with Seamless Connectivity"
-                paragraph="Experience XinChat your way—download it to your device. Select your preferred version and start connecting instantly."
+                paragraph="Experience XinLeo your way download it to your device. Select your preferred version and start connecting instantly."
                 mb="44px"
               />
               <div className="flex flex-row gap-2">

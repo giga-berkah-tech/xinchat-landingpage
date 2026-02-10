@@ -43,7 +43,7 @@ const Contact = () => {
 
                 <div className="flex w-full max-w-full flex-col space-y-4 md:max-w-sm">
                   <p>xinchat@aplikasiku.web.id</p>
-                  <p>+62882009019753</p>
+                  <p>+6285123724362</p>
                 </div>
               </div>
 

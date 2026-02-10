@@ -1,134 +1,394 @@
 import Breadcrumb from "../Common/Breadcrumb";
+
 export const TermService = () => {
-  const terms = [
-    {
-      title: "Welcome to XinChat",
-      description: `Thank you for choosing XinChat! By downloading, accessing, or using our mobile application ("App"), you agree to comply with these Terms and Conditions ("Terms"). If you do not agree with any of these Terms, please refrain from using the App.`,
-    },
-    {
-      title: "Use of the Application",
-      description: `XinChat is provided on an "as-is" and "as-available" basis. We reserve the right to modify, suspend, or discontinue any part of the App at any time without prior notice. You agree to use the App only for lawful purposes and in compliance with all applicable laws and regulations.`,
-    },
-    {
-      title: "User Accounts",
-      list: [
-        "To access certain features of the App, you may be required to create an account.",
-        "You are responsible for maintaining the confidentiality of your account credentials and are solely responsible for all activities that occur under your account.",
-        "You agree not to share your account details or use another user’s account without permission.",
-        "If you suspect any unauthorized use of your account, you must notify us immediately.",
-      ],
-    },
-    {
-      title: "Prohibited Conduct",
-      list: [
-        "Engage in any illegal or unauthorized activity.",
-        "Upload or share harmful, abusive, or objectionable content, including but not limited to hate speech or explicit materials.",
-        "Use XinChat to spam or harass other users.",
-        "Attempt to hack, disrupt, or interfere with the app's functionality.",
-        "Collect or store personal data of other users without authorization.",
-        "Impersonate any person or entity or misrepresent your affiliation with any individual or organization.",
-      ],
-      description:
-        "Violating these terms may result in the suspension or termination of your account and possible legal action.",
-    },
-    {
-      title: "Intellectual Property",
-      list: [
-        "All content, trademarks, logos, and intellectual property within XinChat are owned by us or our licensors.",
-        "You may not copy, modify, distribute, or reuse any part of the App’s content without explicit written permission.",
-      ],
-    },
-    {
-      title: "Privacy Policy",
-      description:
-        "Your privacy is important to us. Please review our Privacy Policy to understand how we collect, use, and protect your personal data. By using XinChat, you consent to our data practices as described in the Privacy Policy.",
-    },
-    {
-      title: "Limitation of Liability",
-      list: [
-        "XinChat and its affiliates are not responsible for any indirect, incidental, consequential, or punitive damages arising from your use of the App.",
-        "We do not guarantee that the App will be error-free, uninterrupted, or secure.",
-        "We are not liable for any loss of data, damages caused by malware, unauthorized access, or other issues beyond our reasonable control.",
-      ],
-    },
-    {
-      title: "Termination",
-      list: [
-        "Suspend or terminate your access to the App at any time, with or without notice, if you violate these Terms or engage in prohibited behavior.",
-        "Remove or disable content that violates these Terms or applicable laws.",
-      ],
-    },
-    {
-      title: "Changes to Terms",
-      description:
-        "We may update these Terms from time to time. Any changes will be effective immediately upon posting the revised Terms within the App. Your continued use of the App after changes are made indicates your acceptance of the updated Terms.",
-    },
-
-    {
-      title: "Governing Law",
-      list: [
-        "These Terms are governed by the laws of [Your Country/Region].",
-        "Any disputes arising from the use of XinChat will be resolved in the courts of [Your Jurisdiction].",
-      ],
-    },
-    {
-      title: "Contact Us",
-      description:
-        "If you have questions or concerns about these Terms, please contact us at xinchat@aplikasiku.web.id By using XinChat, you acknowledge that you have read, understood, and agreed to these Terms.",
-    },
-  ];
-
   return (
     <>
       <Breadcrumb
-        pageName="Term & Service"
-        description="Effective Date: January, 28 2026"
+        pageName="Terms and Conditions"
+        description="Last updated: February 10, 2026"
       />
 
-      <section id="term-service" className="pt-16 md:pt-20 lg:pt-28">
-        <div className="container">
-          <div className="border-body-color/[.15] border-b pb-16 md:pb-20 lg:pb-28 dark:border-white/[.15]">
-            <div className="-mx-4 flex flex-wrap items-center">
-              {/* <p className="font-medium">{t('terms.date')}</p> */}
-              <div className="space-y-10 px-4">
-                {terms.map((item, index) => (
-                  <div key={index} className="rounded-lg">
-                    <h2 className="mb-3 text-2xl font-semibold">
-                      {item.title}
-                    </h2>
-
-                    {item.description && (
-                      <p className="mb-3 text-gray-700 dark:text-gray-300">
-                        {item.description}
-                      </p>
-                    )}
-
-                    {/* {(item.title === "Contact Us" ||
-                      item.title === "Privacy Policy") && (
-                      <p
-                        dangerouslySetInnerHTML={{
-                          __html: item.description,
-                        }}
-                      />
-                    )} */}
-
-                    {item.list && (
-                      <ul className="list-disc space-y-2 pl-6 text-gray-700 dark:text-gray-300">
-                        {item.list.map((li, i) => (
-                          <li key={i}>{li}</li>
-                        ))}
-                      </ul>
-                    )}
-
-                    {/* {item.note && (
-                      <p className="mt-3 text-gray-600 italic dark:text-gray-400">
-                        {item.note}
-                      </p>
-                    )} */}
-                  </div>
-                ))}
-              </div>
+      <section
+        id="terms-conditions"
+        className="dark:bg-dark text-body-color bg-white py-16 md:py-20 lg:py-28"
+      >
+        <div className="container mx-auto px-4">
+          <div>
+            {/* Intro */}
+            <div className="prose prose-slate dark:prose-invert mb-10 max-w-none">
+              <p className="text-lg leading-relaxed font-medium text-black dark:text-white">
+                Please read these terms and conditions carefully before using
+                Our Service.
+              </p>
             </div>
+
+            <div className="border-body-color/10 my-10 border-t"></div>
+
+            {/* Interpretation and Definitions */}
+            <section className="mb-12">
+              <h2 className="mb-6 text-2xl font-bold text-black sm:text-3xl dark:text-white">
+                1. Interpretation and Definitions
+              </h2>
+
+              <div className="mb-8">
+                <h3 className="mb-3 text-xl font-semibold text-black dark:text-white">
+                  Interpretation
+                </h3>
+                <p className="text-base leading-relaxed">
+                  The words whose initial letters are capitalized have meanings
+                  defined under the following conditions. The following
+                  definitions shall have the same meaning regardless of whether
+                  they appear in singular or in plural.
+                </p>
+              </div>
+
+              <div>
+                <h3 className="mb-4 text-xl font-semibold text-black dark:text-white">
+                  Definitions
+                </h3>
+                <p className="mb-6">
+                  For the purposes of these Terms and Conditions:
+                </p>
+                <ul className="space-y-4">
+                  <li className="flex gap-3">
+                    <span className="text-primary font-bold">•</span>
+                    <p>
+                      <strong className="text-black dark:text-white">
+                        Affiliate
+                      </strong>{" "}
+                      means an entity that controls, is controlled by, or is
+                      under common control with a party, where "control" means
+                      ownership of 50% or more of the shares, equity interest or
+                      other securities entitled to vote for election of
+                      directors or other managing authority.
+                    </p>
+                  </li>
+                  <li className="flex gap-3">
+                    <span className="text-primary font-bold">•</span>
+                    <p>
+                      <strong className="text-black dark:text-white">
+                        Country
+                      </strong>{" "}
+                      refers to: Indonesia
+                    </p>
+                  </li>
+                  <li className="flex gap-3">
+                    <span className="text-primary font-bold">•</span>
+                    <p>
+                      <strong className="text-black dark:text-white">
+                        Company
+                      </strong>{" "}
+                      (referred to as either "the Company", "We", "Us" or "Our"
+                      in these Terms and Conditions) refers to PT Giga Berkah
+                      Teknologi, Jalan Lo`Andeng, Desa/Kelurahan Purwodadi, Kec.
+                      Blimbing, Kota Malang, Provinsi Jawa Timur Kode Pos:
+                      65126.
+                    </p>
+                  </li>
+                  <li className="flex gap-3">
+                    <span className="text-primary font-bold">•</span>
+                    <p>
+                      <strong className="text-black dark:text-white">
+                        Device
+                      </strong>{" "}
+                      means any device that can access the Service such as a
+                      computer, a cell phone or a digital tablet.
+                    </p>
+                  </li>
+                  <li className="flex gap-3">
+                    <span className="text-primary font-bold">•</span>
+                    <p>
+                      <strong className="text-black dark:text-white">
+                        Service
+                      </strong>{" "}
+                      refers to the Website.
+                    </p>
+                  </li>
+                  <li className="flex gap-3">
+                    <span className="text-primary font-bold">•</span>
+                    <p>
+                      <strong className="text-black dark:text-white">
+                        Terms and Conditions
+                      </strong>{" "}
+                      (also referred to as "Terms") means these Terms and
+                      Conditions, including any documents expressly incorporated
+                      by reference, which govern Your access to and use of the
+                      Service and form the entire agreement between You and the
+                      Company regarding the Service. These Terms and Conditions
+                      have been created with the help of the{" "}
+                      <a
+                        href="https://www.termsfeed.com/terms-conditions-generator/"
+                        target="_blank"
+                        className="text-primary hover:underline"
+                      >
+                        Terms and Conditions Generator
+                      </a>
+                      .
+                    </p>
+                  </li>
+                  <li className="flex gap-3">
+                    <span className="text-primary font-bold">•</span>
+                    <p>
+                      <strong className="text-black dark:text-white">
+                        Third-Party Social Media Service
+                      </strong>{" "}
+                      means any services or content (including data,
+                      information, products or services) provided by a third
+                      party that is displayed, included, made available, or
+                      linked to through the Service.
+                    </p>
+                  </li>
+                  <li className="flex gap-3">
+                    <span className="text-primary font-bold">•</span>
+                    <p>
+                      <strong className="text-black dark:text-white">
+                        Website
+                      </strong>{" "}
+                      refers to XinLeo, accessible from{" "}
+                      <a
+                        href="https://xinleo.aplikasiku.web.id/"
+                        rel="external nofollow noopener"
+                        target="_blank"
+                        className="text-primary hover:underline"
+                      >
+                        https://xinleo.aplikasiku.web.id/
+                      </a>
+                    </p>
+                  </li>
+                  <li className="flex gap-3">
+                    <span className="text-primary font-bold">•</span>
+                    <p>
+                      <strong className="text-black dark:text-white">
+                        You
+                      </strong>{" "}
+                      means the individual accessing or using the Service, or
+                      the company, or other legal entity on behalf of which such
+                      individual is accessing or using the Service, as
+                      applicable.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </section>
+
+            {/* Acknowledgment */}
+            <section className="bg-primary/[0.03] border-primary/10 mb-12 rounded-xl border p-8">
+              <h2 className="mb-5 text-2xl font-bold text-black sm:text-3xl dark:text-white">
+                Acknowledgment
+              </h2>
+              <div className="space-y-4 text-base leading-relaxed">
+                <p>
+                  These are the Terms and Conditions governing the use of this
+                  Service and the agreement between You and the Company. These
+                  Terms and Conditions set out the rights and obligations of all
+                  users regarding the use of the Service.
+                </p>
+                <p>
+                  Your access to and use of the Service is conditioned on Your
+                  acceptance of and compliance with these Terms and Conditions.
+                  These Terms and Conditions apply to all visitors, users and
+                  others who access or use the Service.
+                </p>
+                <p className="font-semibold text-black dark:text-white">
+                  By accessing or using the Service You agree to be bound by
+                  these Terms and Conditions. If You disagree with any part of
+                  these Terms and Conditions then You may not access the
+                  Service.
+                </p>
+                <p>
+                  You represent that you are over the age of 18. The Company
+                  does not permit those under 18 to use the Service.
+                </p>
+                <p>
+                  Your access to and use of the Service is also subject to Our
+                  Privacy Policy, which describes how We collect, use, and
+                  disclose personal information. Please read Our Privacy Policy
+                  carefully before using Our Service.
+                </p>
+              </div>
+            </section>
+
+            {/* Links to Other Websites */}
+            <section className="mb-12">
+              <h2 className="mb-5 text-2xl font-bold text-black sm:text-3xl dark:text-white">
+                Links to Other Websites
+              </h2>
+              <p className="mb-4 text-base leading-relaxed">
+                Our Service may contain links to third-party websites or
+                services that are not owned or controlled by the Company.
+              </p>
+              <p className="mb-6 text-base leading-relaxed">
+                The Company has no control over, and assumes no responsibility
+                for, the content, privacy policies, or practices of any
+                third-party websites or services. You further acknowledge and
+                agree that the Company shall not be responsible or liable,
+                directly or indirectly, for any damage or loss caused or alleged
+                to be caused by or in connection with the use of or reliance on
+                any such content, goods or services available on or through any
+                such websites or services.
+              </p>
+
+              <div className="border-primary/20 border-l-4 pl-6">
+                <h3 className="mb-3 text-xl font-semibold text-black dark:text-white">
+                  Links from a Third-Party Social Media Service
+                </h3>
+                <p className="mb-4 text-base leading-relaxed">
+                  The Service may display, include, make available, or link to
+                  content or services provided by a Third-Party Social Media
+                  Service. A Third-Party Social Media Service is not owned or
+                  controlled by the Company, and the Company does not endorse or
+                  assume responsibility for any Third-Party Social Media
+                  Service.
+                </p>
+                <p className="text-base leading-relaxed italic">
+                  You acknowledge and agree that the Company shall not be
+                  responsible or liable, directly or indirectly, for any damage
+                  or loss caused or alleged to be caused by or in connection
+                  with Your access to or use of any Third-Party Social Media
+                  Service.
+                </p>
+              </div>
+            </section>
+
+            <div className="border-body-color/10 my-10 border-t"></div>
+
+            {/* Termination & Liability */}
+            <div className="mb-12 grid grid-cols-1 gap-8 md:grid-cols-2">
+              <section className="border-body-color/10 rounded-lg border p-6">
+                <h2 className="mb-4 text-xl font-bold text-black dark:text-white">
+                  Termination
+                </h2>
+                <p className="text-base leading-relaxed">
+                  We may terminate or suspend Your access immediately, without
+                  prior notice or liability, for any reason whatsoever,
+                  including without limitation if You breach these Terms and
+                  Conditions.
+                </p>
+                <p className="mt-4 font-medium">
+                  Upon termination, Your right to use the Service will cease
+                  immediately.
+                </p>
+              </section>
+
+              <section className="border-body-color/10 rounded-lg border bg-red-50/30 p-6 dark:bg-red-900/10">
+                <h2 className="mb-4 text-xl font-bold text-black dark:text-red-400">
+                  Limitation of Liability
+                </h2>
+                <p className="mb-4 text-sm leading-relaxed">
+                  The entire liability of the Company and any of its suppliers
+                  under any provision of these Terms shall be limited to the
+                  amount actually paid by You through the Service or 100 USD if
+                  You haven't purchased anything.
+                </p>
+                <p className="text-xs leading-relaxed uppercase opacity-80">
+                  To the maximum extent permitted by law, in no event shall the
+                  Company be liable for any special, incidental, or
+                  consequential damages whatsoever.
+                </p>
+              </section>
+            </div>
+
+            {/* AS IS Disclaimer */}
+            <section className="bg-primary/5 border-body-color/10 mb-12 rounded-lg border p-8">
+              <h2 className="mb-5 text-2xl font-bold text-black dark:text-white">
+                "AS IS" and "AS AVAILABLE" Disclaimer
+              </h2>
+              <div className="space-y-4 text-sm leading-relaxed tracking-wide uppercase">
+                <p>
+                  The Service is provided to You "AS IS" and "AS AVAILABLE" and
+                  with all faults and defects without warranty of any kind.
+                </p>
+                <p>
+                  The Company provides no warranty or undertaking, and makes no
+                  representation of any kind that the Service will meet Your
+                  requirements, achieve any intended results, be compatible or
+                  work with any other software, applications, systems or
+                  services.
+                </p>
+                <p>
+                  Without limiting the foregoing, neither the Company nor any of
+                  the company's provider makes any representation or warranty of
+                  any kind, express or implied as to the operation or
+                  availability of the Service, or that the Service is free of
+                  viruses or other harmful components.
+                </p>
+              </div>
+            </section>
+
+            {/* Legal Clauses */}
+            <div className="mb-12 grid grid-cols-1 gap-x-12 gap-y-10 sm:grid-cols-2">
+              <section>
+                <h2 className="mb-3 text-xl font-bold text-black dark:text-white">
+                  Governing Law
+                </h2>
+                <p className="text-base">
+                  The laws of the Country, excluding its conflicts of law rules,
+                  shall govern these Terms and Your use of the Service.
+                </p>
+              </section>
+
+              <section>
+                <h2 className="mb-3 text-xl font-bold text-black dark:text-white">
+                  Disputes Resolution
+                </h2>
+                <p className="text-base">
+                  If You have any concern or dispute, You agree to first try to
+                  resolve the dispute informally by contacting the Company.
+                </p>
+              </section>
+
+              <section>
+                <h2 className="mb-3 text-xl font-bold text-black dark:text-white">
+                  EU & US Compliance
+                </h2>
+                <p className="text-base leading-relaxed">
+                  EU users benefit from mandatory local laws. US users warrant
+                  they are not in embargoed countries or on restricted party
+                  lists.
+                </p>
+              </section>
+
+              <section>
+                <h2 className="mb-3 text-xl font-bold text-black dark:text-white">
+                  Severability & Waiver
+                </h2>
+                <p className="text-base leading-relaxed">
+                  Invalid provisions will be interpreted to achieve their
+                  objectives. Failure to exercise a right does not constitute a
+                  waiver.
+                </p>
+              </section>
+            </div>
+
+            {/* Changes and Contact */}
+            <section className="mt-16 space-y-10">
+              <div className="border-primary bg-primary/5 border-l-4 p-8">
+                <h2 className="mb-4 text-xl font-bold text-black dark:text-white">
+                  Changes to These Terms
+                </h2>
+                <p className="text-base leading-relaxed">
+                  We reserve the right to modify these Terms at any time. For
+                  material revisions, we will make reasonable efforts to provide
+                  at least 30 days' notice.
+                </p>
+              </div>
+
+              <footer className="bg-primary/5 border-primary/10 rounded-lg border p-8 text-center">
+                <h2 className="mb-4 text-2xl font-bold text-black dark:text-white">
+                  Contact Us
+                </h2>
+                <p className="text-body-color mb-6 text-base">
+                  If you have any questions about this Privacy Policy, You can
+                  contact us:
+                </p>
+                <a
+                  href="mailto:mzhuroh99@gmail.com"
+                  className="bg-primary hover:bg-opacity-90 shadow-primary/20 inline-block rounded-full px-8 py-3 text-base font-semibold text-white shadow-lg transition"
+                >
+                  mzhuroh99@gmail.com
+                </a>
+              </footer>
+            </section>
           </div>
         </div>
       </section>
