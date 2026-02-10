@@ -42,7 +42,7 @@ const Contact = () => {
                 </h1>
 
                 <div className="flex w-full max-w-full flex-col space-y-4 md:max-w-sm">
-                  <p>XinLeo@aplikasiku.web.id</p>
+                  <p>mzhuroh99@gmail.com</p>
                   <p>+6285123724362</p>
                 </div>
               </div>
