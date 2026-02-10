@@ -152,7 +152,7 @@ export const PrivacyPolicy = () => {
                   </strong>{" "}
                   refers to XinLeo, accessible from{" "}
                   <a
-                    href="https://xinleo.aplikasiku.web.id/"
+                    href="https://xinleo.bro.biz.id/"
                     rel="external nofollow noopener"
                     target="_blank"
                     className="text-primary hover:underline"
