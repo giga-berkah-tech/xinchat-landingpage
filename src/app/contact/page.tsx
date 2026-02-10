@@ -4,8 +4,8 @@ import Contact from "@/components/Contact";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact for XinChat ",
-  description: "This is Contact Page for XinChat",
+  title: "Contact for XinLeo ",
+  description: "This is Contact Page for XinLeo",
   // other metadata
 };
 

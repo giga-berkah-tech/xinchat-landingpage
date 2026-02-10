@@ -44,7 +44,7 @@ with Seamless Connectivity"
               <div className="relative mx-auto max-w-[350px]">
                 <Image
                   src={chatPic}
-                  alt="XinChat App Preview"
+                  alt="XinLeo App Preview"
                   width={300}
                   height={600}
                   className="drop-shadow-three mx-auto"

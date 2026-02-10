@@ -5,8 +5,8 @@ import Hero from "@/components/Hero";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Xinchat Landing Page",
-  description: "This is Home for XinChat",
+  title: "XinLeo Landing Page",
+  description: "This is Home for XinLeo",
   // other metadata
 };
 

@@ -42,7 +42,7 @@ const Contact = () => {
                 </h1>
 
                 <div className="flex w-full max-w-full flex-col space-y-4 md:max-w-sm">
-                  <p>xinchat@aplikasiku.web.id</p>
+                  <p>XinLeo@aplikasiku.web.id</p>
                   <p>+6285123724362</p>
                 </div>
               </div>
@@ -59,7 +59,7 @@ const Contact = () => {
                     Jalan Lo`Andeng, Desa/Kelurahan Purwodadi, Kec. Blimbing,
                     Kota Malang, Provinsi Jawa Timur
                   </p>
-                  {/* <p>xinchat@aplikasiku.web.id</p>
+                  {/* <p>XinLeo@aplikasiku.web.id</p>
             <p>+6287712622018</p> */}
                 </div>
               </div>

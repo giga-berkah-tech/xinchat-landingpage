@@ -5,8 +5,8 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Download Page for XinChat",
-  description: "This is download page for XinChat",
+  title: "Download Page for XinLeo",
+  description: "This is download page for XinLeo",
   // other metadata
 };
 
