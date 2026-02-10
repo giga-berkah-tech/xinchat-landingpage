@@ -2,14 +2,16 @@
 import Image from "next/image";
 import SectionTitle from "../Common/SectionTitle";
 import { GroupButton } from "../Hero/GroupButton";
-import chatPic1 from "@/images/ss-chat.jpg";
-import chatPic2 from "@/images/ss-contact.jpg";
-import chatPic3 from "@/images/ss-profile.jpg";
+import chatPic1 from "@/images/ss-chat.png";
+import chatPic2 from "@/images/ss-contact.png";
+import chatPic3 from "@/images/ss-profile.png";
+import chatPic4 from "@/images/ss-setting.png";
+import chatPic5 from "@/images/ss-canvas.png";
 import phoneFrame from "@/images/phone-frame.png";
 import { useState, useEffect } from "react";
 
 const AboutSectionOne = () => {
-  const screenshots = [chatPic1, chatPic2, chatPic3];
+  const screenshots = [chatPic1, chatPic2, chatPic3, chatPic4, chatPic5];
   const [index, setIndex] = useState(0);
 
   // Auto slide every 3 seconds
@@ -58,8 +60,8 @@ with Seamless Connectivity"
                   src={screenshots[index]}
                   alt="Chat Screen"
                   width={700}
-                  height={1061}
-                  className={`animate-fade-in absolute top-[20px] left-1/2 z-0 -translate-x-1/2 -translate-y-17 scale-x-90 scale-y-81 transition-all duration-700 ease-out`}
+                  height={1100}
+                  className={`animate-fade-in absolute top-[20px] left-1/2 z-0 -translate-x-1/2 -translate-y-16 scale-x-90 scale-y-86 transition-all duration-700 ease-out`}
                 />
 
                 {/* --- STATIC PHONE FRAME --- */}

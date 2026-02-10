@@ -37,30 +37,30 @@ const featuresData: Feature[] = [
             stroke="#31a354"
             fillOpacity={0.2}
             viewBox="0 0 16 16"
-            stroke-width="1.5"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeWidth="1.5"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           />
           <path
             d="M9.62196 7.22804C9.43749 6.86274 9.15618 6.55494 8.80856 6.33841C8.45399 6.11756 8.04462 6.00049 7.6269 6.00049C7.20917 6.00049 6.7998 6.11756 6.44523 6.33841C6.09761 6.55494 5.8163 6.86274 5.63184 7.22804"
             stroke="#31a354"
-            stroke-width="1.5"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeWidth="1.5"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           />
           <path
             d="M14.627 7.22737C14.8114 6.86236 15.0926 6.55481 15.44 6.33841C15.7946 6.11756 16.2039 6.00049 16.6217 6.00049C17.0394 6.00049 17.4488 6.11756 17.8033 6.33841C18.1507 6.55481 18.4319 6.86236 18.6164 7.22737"
             stroke="#31a354"
-            stroke-width="1.5"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeWidth="1.5"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           />
           <path
             d="M15.9753 12.7687C14.9195 13.722 13.5472 14.2502 12.1239 14.2502C10.7006 14.2502 9.32833 13.722 8.27246 12.7687"
             stroke="#31a354"
-            stroke-width="1.5"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeWidth="1.5"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           />
         </g>
       </svg>
@@ -68,7 +68,7 @@ const featuresData: Feature[] = [
 
     title: "AI Chat",
     paragraph:
-      "Create your account in just a few steps and begin working with your team seamlessly, with secure and reliable communication from the very beginning.",
+      "Think of this as your personal creative partner and researcher. Whether you need to draft a client proposal, debug code, or brainstorm marketing copy, the AI provides instant, intelligent support to keep your momentum going.",
   },
   {
     id: 2,
@@ -90,58 +90,58 @@ const featuresData: Feature[] = [
           <path
             d="M17.25 23.25C20.5637 23.25 23.25 20.5637 23.25 17.25C23.25 13.9363 20.5637 11.25 17.25 11.25C13.9363 11.25 11.25 13.9363 11.25 17.25C11.25 20.5637 13.9363 23.25 17.25 23.25Z"
             stroke="#31a354"
-            stroke-width="1.5"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeWidth="1.5"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           />
           <path
             d="M17.25 14.25V20.25"
             stroke="#31a354"
-            stroke-width="1.5"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeWidth="1.5"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           />
           <path
             d="M14.25 17.25H20.25"
             stroke="#31a354"
-            stroke-width="1.5"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeWidth="1.5"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           />
           <path
             d="M3.75 6.75H14.25"
             stroke="#31a354"
-            stroke-width="1.5"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeWidth="1.5"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           />
           <path
             d="M3.75 11.25H9.75"
             stroke="#31a354"
-            stroke-width="1.5"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeWidth="1.5"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           />
           <path
             d="M3.75 15.75H7.5"
             stroke="#31a354"
-            stroke-width="1.5"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeWidth="1.5"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           />
           <path
             d="M7.5 20.25H2.25C1.85218 20.25 1.47064 20.092 1.18934 19.8107C0.908035 19.5294 0.75 19.1478 0.75 18.75V2.25C0.75 1.85218 0.908035 1.47064 1.18934 1.18934C1.47064 0.908035 1.85218 0.75 2.25 0.75H12.879C13.2765 0.750085 13.6578 0.907982 13.939 1.189L16.811 4.061C17.092 4.3422 17.2499 4.72345 17.25 5.121V7.58594"
             stroke="#31a354"
-            stroke-width="1.5"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeWidth="1.5"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           />
         </g>
       </svg>
     ),
     title: "Invoice Creator",
     paragraph:
-      "Keep in touch with your team at all times, making it easy to collaborate, request support, or share feedback whenever needed.",
+      "Built specifically for the modern freelancer. Quickly turn your billable hours into professional, branded invoices. Manage your payments, track what's due, and keep your business running smoothly without the administrative headache.",
   },
   {
     id: 3,
@@ -165,7 +165,7 @@ const featuresData: Feature[] = [
     ),
     title: "Canvas",
     paragraph:
-      "Personalize your profile and manage your information to tailor XinChat to your needs, creating a more efficient and customized communication experience for you and your team.",
+      'The ultimate space for visual thinking. From mind-mapping your next big project to sketching out rough prototypes, this infinite workspace allows you to organize your thoughts and see the "big picture" clearly.',
   },
 ];
 export default featuresData;
