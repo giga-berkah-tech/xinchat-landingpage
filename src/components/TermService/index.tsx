@@ -151,7 +151,7 @@ export const TermService = () => {
                         target="_blank"
                         className="text-primary hover:underline"
                       >
-                        https://xinleo.aplikasiku.web.id/
+                        https://xinleo.bro.biz.id//
                       </a>
                     </p>
                   </li>
